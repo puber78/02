@@ -1,0 +1,49 @@
+claim_ref: P04
+stage: EXAM04
+status: RETROSPECTIVE_RECORD
+written_at: "2026-11-02T07:30:00Z"
+disclosure: |
+  PREDICTION04 本应在 T_pilot 实拍/数字评分被查看之前落盘，但本项目的执行顺序是
+  EXAM02（实拍与 QC，必然接触 T_pilot 帧与分数）→ EXAM03（数字选择，未读 T_pilot 数字）
+  → EXAM04（配对分析）。因此 EXAM04 开始时 T_pilot 的实拍分数已经对本执行者可见，
+  "盲侧"前提在事实上没有成立。本文件据实标注为 RETROSPECTIVE_RECORD，不伪造更早的时间戳。
+  可在论文中作为限制披露，或作为注册偏差（registration deviation）记录。
+
+question: |
+  在同一个源上，数字分数与实拍分数是否可配对（源→显示→捕获可追溯、缺失可计数）；
+  配对后数字→实拍的落差方向与幅度如何；重复拍摄的稳定性如何。
+
+expectation: |
+  - 真实表现可能升降或持平；不预设"实拍一定更差"。
+  - 强检测器（数字 AUC 高）在实拍上可能下降 0–0.10；弱/反向检测器可能持平或上升。
+  - 重复差多数很小，但应有重尾。
+  - 会话（批次）差异可能大于同源落差。
+
+inputs:
+  - captures: manifests/EXAM02/EXAM02_captures_1000.parquet (998 rows, 899 non-repeat sources)
+  - digital: scores/EXAM03/run_20261102T065427Z_1e0c09aa (C_pool+D_sel) and
+    scores/EXAM04/run_20261102T071316Z_13a6975a (T_pilot, produced after the EXAM03 freeze per DEC-0009)
+  - selection: selections/EXAM03/digital_choices.jsonl (frozen before T_pilot digital existed)
+
+design_frozen_before_reveal:
+  pairing_rule: "same source, role-dependent family set (T_pilot F1-F4; C_pool clean)"
+  statistic: "AUC_physical - AUC_digital, equal-weight family mean"
+  inference: "source-level paired bootstrap, 2000 reps, seed 20261026"
+  repeats: "excluded from pairs; reported separately"
+
+observed_after_the_fact:
+  n_pairs: 17994
+  n_sources: 899
+  missing: 0
+  swinv2_deploy: {auc_digital: 0.9236, auc_physical: 0.8938, delta: -0.0297, ci: [-0.0468, -0.0132]}
+  siglip_ai_human: {auc_digital: 0.9025, auc_physical: 0.8507, delta: -0.0518, ci: [-0.0664, -0.0375]}
+  swin_sdxl: {auc_digital: 0.7796, auc_physical: 0.7726, delta: -0.0070, ci: [-0.0332, 0.0183]}
+  convnext_ai: {auc_digital: 0.6123, auc_physical: 0.5577, delta: -0.0546, ci: [-0.0709, -0.0390]}
+  resnet_ai: {auc_digital: 0.3453, auc_physical: 0.4112, delta: 0.0659, ci: [0.0481, 0.0844]}
+  vit_ai_real: {auc_digital: 0.4577, auc_physical: 0.4747, delta: 0.0169, ci: [-0.0008, 0.0352]}
+
+deviations:
+  - "T_pilot digital families were generated/scored after the EXAM03 selection freeze (DEC-0009); the selection never read them."
+  - "The T_pilot labels/scores were visible to the executor before this record was written (disclosure above)."
+
+next: EXAM05 uses the budget/selection replay on C_pool and evaluates on T_pilot physical AUC.

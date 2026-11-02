@@ -1,0 +1,16 @@
+{
+  "session": "tech",
+  "expected": 20,
+  "files": 20,
+  "imported": 20,
+  "missing": 0,
+  "passed": 19,
+  "failed": 1,
+  "excluded": 0,
+  "pinned": {},
+  "failure_codes": {
+    "BLUR": 1
+  },
+  "skipped": [],
+  "dry_run": false
+}

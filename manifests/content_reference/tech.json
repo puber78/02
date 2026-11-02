@@ -1,0 +1,222 @@
+[
+ {
+  "seq": 1,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.00021701388888888888,
+  "asset_clip": 0.00010850694444444444,
+  "clip_excess": 0.00010850694444444444,
+  "photo_blur": 642.4676357501453,
+  "asset_blur": 456.0914291508239,
+  "sharp_ratio": 1.4086378184004178
+ },
+ {
+  "seq": 2,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.0001150173611111111,
+  "asset_clip": 0.011490885416666667,
+  "clip_excess": -0.011375868055555556,
+  "photo_blur": 720.6379310011862,
+  "asset_blur": 566.5295268825201,
+  "sharp_ratio": 1.2720218396500684
+ },
+ {
+  "seq": 3,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 7.703993055555555e-05,
+  "asset_clip": 0.001396484375,
+  "clip_excess": -0.0013194444444444445,
+  "photo_blur": 554.7046722526444,
+  "asset_blur": 298.9945974709958,
+  "sharp_ratio": 1.8552330943252375
+ },
+ {
+  "seq": 4,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 1.0850694444444445e-05,
+  "asset_clip": 0.04579752604166667,
+  "clip_excess": -0.04578667534722222,
+  "photo_blur": 282.85731038529076,
+  "asset_blur": 300.2772074272709,
+  "sharp_ratio": 0.9419872817146824
+ },
+ {
+  "seq": 5,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 2.170138888888889e-05,
+  "asset_clip": 0.005660807291666667,
+  "clip_excess": -0.005639105902777778,
+  "photo_blur": 444.347107338757,
+  "asset_blur": 302.3171785681407,
+  "sharp_ratio": 1.4698043605835103
+ },
+ {
+  "seq": 6,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.00011284722222222222,
+  "asset_clip": 0.0021809895833333334,
+  "clip_excess": -0.0020681423611111113,
+  "photo_blur": 1696.0019325606545,
+  "asset_blur": 959.6941890250206,
+  "sharp_ratio": 1.7672316368651444
+ },
+ {
+  "seq": 7,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 7.595486111111111e-06,
+  "asset_clip": 0.0006922743055555556,
+  "clip_excess": -0.0006846788194444445,
+  "photo_blur": 737.5982840827364,
+  "asset_blur": 420.606840021429,
+  "sharp_ratio": 1.75365261307961
+ },
+ {
+  "seq": 8,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.0002072482638888889,
+  "asset_clip": 0.061682942708333334,
+  "clip_excess": -0.061475694444444444,
+  "photo_blur": 507.066109360231,
+  "asset_blur": 535.5590939882055,
+  "sharp_ratio": 0.9467976831169223
+ },
+ {
+  "seq": 9,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 4.340277777777778e-06,
+  "asset_clip": 0.022554253472222223,
+  "clip_excess": -0.022549913194444444,
+  "photo_blur": 441.61523516693114,
+  "asset_blur": 310.49460493975977,
+  "sharp_ratio": 1.422296001737649
+ },
+ {
+  "seq": 10,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.00020073784722222221,
+  "asset_clip": 0.0019954427083333334,
+  "clip_excess": -0.0017947048611111113,
+  "photo_blur": 414.0051086226805,
+  "asset_blur": 152.87732421851925,
+  "sharp_ratio": 2.708087093615737
+ },
+ {
+  "seq": 11,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.0001996527777777778,
+  "asset_clip": 0.061682942708333334,
+  "clip_excess": -0.06148328993055555,
+  "photo_blur": 490.00277599532404,
+  "asset_blur": 535.5590939882055,
+  "sharp_ratio": 0.9149368977125711
+ },
+ {
+  "seq": 12,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.0006553819444444444,
+  "asset_clip": 0.001013454861111111,
+  "clip_excess": -0.0003580729166666666,
+  "photo_blur": 381.03945449319417,
+  "asset_blur": 179.70398961850273,
+  "sharp_ratio": 2.1203728158852266
+ },
+ {
+  "seq": 13,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 1.0850694444444445e-05,
+  "asset_clip": 0.0010633680555555555,
+  "clip_excess": -0.001052517361111111,
+  "photo_blur": 1705.5727714694506,
+  "asset_blur": 1513.7289360146417,
+  "sharp_ratio": 1.1267359240419206
+ },
+ {
+  "seq": 14,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.0005078125,
+  "asset_clip": 0.0006022135416666667,
+  "clip_excess": -9.440104166666668e-05,
+  "photo_blur": 322.73700999408186,
+  "asset_blur": 188.06236760829876,
+  "sharp_ratio": 1.7161169142903008
+ },
+ {
+  "seq": 15,
+  "qc_status": "failed",
+  "failure_code": "BLUR",
+  "photo_clip": 1.4105902777777777e-05,
+  "asset_clip": 0.004135199652777778,
+  "clip_excess": -0.004121093750000001,
+  "photo_blur": 104.4869764225324,
+  "asset_blur": 168.85238553760553,
+  "sharp_ratio": 0.6188066345042063
+ },
+ {
+  "seq": 16,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.00012044270833333334,
+  "asset_clip": 0.0021809895833333334,
+  "clip_excess": -0.002060546875,
+  "photo_blur": 1341.2879301843523,
+  "asset_blur": 959.6941890250206,
+  "sharp_ratio": 1.3976201435032165
+ },
+ {
+  "seq": 17,
+  "qc_status": "failed",
+  "failure_code": "BLUR",
+  "photo_clip": 7.703993055555555e-05,
+  "asset_clip": 5.099826388888889e-05,
+  "clip_excess": 2.6041666666666658e-05,
+  "photo_blur": 104.29096122283818,
+  "asset_blur": 150.26730624728734,
+  "sharp_ratio": 0.6940362732743195
+ },
+ {
+  "seq": 18,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 0.0007562934027777778,
+  "asset_clip": 0.0006022135416666667,
+  "clip_excess": 0.00015407986111111113,
+  "photo_blur": 296.8273823006901,
+  "asset_blur": 188.06236760829876,
+  "sharp_ratio": 1.5783454503717085
+ },
+ {
+  "seq": 19,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 9.114583333333334e-05,
+  "asset_clip": 0.022151692708333334,
+  "clip_excess": -0.022060546875,
+  "photo_blur": 268.3954993127705,
+  "asset_blur": 309.4807016056013,
+  "sharp_ratio": 0.8672447035318236
+ },
+ {
+  "seq": 20,
+  "qc_status": "passed",
+  "failure_code": null,
+  "photo_clip": 9.657118055555555e-05,
+  "asset_clip": 0.004135199652777778,
+  "clip_excess": -0.004038628472222222,
+  "photo_blur": 341.6543845241971,
+  "asset_blur": 168.85238553760553,
+  "sharp_ratio": 2.0233909247797177
+ }
+]

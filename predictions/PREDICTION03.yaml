@@ -1,0 +1,47 @@
+prediction_id: PREDICTION03
+exam_id: EXAM03
+status: RETROSPECTIVE_RECORD
+authored_at: "2026-11-02T07:15:00Z"
+authored_before_this_record_existed: false
+retrospective_disclosure: >-
+  EXAM03 digital scores were already computed when this file was written.  The
+  *rules and family parameters* it records were genuinely frozen before scoring
+  (protocols/digital_families.yaml v2, protocols/selectors.yaml v2, DEC-0007), but
+  the prediction statements below were formulated with knowledge of the digital
+  AUCs.  They are therefore explicitly post-hoc and carry no evidentiary weight for
+  any hypothesis test; they are kept only so the archive is complete and so the
+  deviation is auditable.  Recorded as deviation D-P03 in RESULT03/RESULT09.
+type: proxy_expectation
+statement: >-
+  Different digital test families will rank the frozen detectors differently, but an
+  equal-weight family average will be stable enough to give one deterministic choice;
+  that choice need not be the model with the best physical AUC, and this stage cannot
+  say which model is best in reality.
+input_scope: >-
+  C_pool (200 sources) and D_sel (500 sources) digital material only; T_pilot was not
+  scored and must not be read for rule selection.
+permitted_data_roles: [C_pool, D_sel]
+frozen_before_scoring:
+  digital_families: protocols/digital_families.yaml (v2_frozen, 2026-11-02T06:39Z)
+  selectors: protocols/selectors.yaml (v2_frozen_exam03, 2026-11-02T06:45Z)
+  detector_acceptance: ops/decisions/DEC-0007_exam03_detector_acceptance.md
+expected_properties:
+  - id: P3-1
+    statement: all 6 accepted candidates produce a score or explicit failure for every C_pool/D_sel sample in every executed family (100% accounting)
+  - id: P3-2
+    statement: family-level AUC orderings differ across F1-F4 for at least one model pair
+  - id: P3-3
+    statement: S_dig (equal-weight mean) selects the same model as at least one of S_worst / S_clean
+  - id: P3-4
+    statement: the random negative control does not coincide with S_dig in expectation
+  - id: P3-5
+    statement: D_sel (digital hold-out) rank of the S_dig choice is not used to revise the choice
+tie_rule: frozen_model_id_priority (lexicographic model_key after score)
+expected_choice: null          # deliberately not predicted
+expected_auc_range: null
+result_path: reports/RESULT03.md
+actual_scores_path: scores/EXAM03/
+actual_selection_path: selections/EXAM03/digital_choices.jsonl
+note: >-
+  No claim about physical superiority may be made from this stage; RESULT03 reports
+  the digital matrix and the frozen choice only.

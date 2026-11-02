@@ -1,0 +1,75 @@
+{
+  "run_id": "run_20261102T070602Z_0445ee9b",
+  "manifest": "manifests\\EXAM03\\run_20261102T064400Z_a8274b7f\\digital_variants.parquet",
+  "families": [
+    "display"
+  ],
+  "metrics": [
+    {
+      "family": "display",
+      "model_key": "swin_sdxl",
+      "auc": 0.832,
+      "auc_ci_lo": 0.7751455879581606,
+      "auc_ci_hi": 0.8888544120418393,
+      "n": 200,
+      "n_ok": 200,
+      "n_failed": 0,
+      "elapsed_s": 29.4
+    },
+    {
+      "family": "display",
+      "model_key": "siglip_ai_human",
+      "auc": 0.8453,
+      "auc_ci_lo": 0.7905768014803751,
+      "auc_ci_hi": 0.900023198519625,
+      "n": 200,
+      "n_ok": 200,
+      "n_failed": 0,
+      "elapsed_s": 17.9
+    },
+    {
+      "family": "display",
+      "model_key": "convnext_ai",
+      "auc": 0.5273,
+      "auc_ci_lo": 0.4472308206487636,
+      "auc_ci_hi": 0.6073691793512364,
+      "n": 200,
+      "n_ok": 200,
+      "n_failed": 0,
+      "elapsed_s": 16.2
+    },
+    {
+      "family": "display",
+      "model_key": "resnet_ai",
+      "auc": 0.37595,
+      "auc_ci_lo": 0.29877191819816346,
+      "auc_ci_hi": 0.45312808180183656,
+      "n": 200,
+      "n_ok": 200,
+      "n_failed": 0,
+      "elapsed_s": 17.2
+    },
+    {
+      "family": "display",
+      "model_key": "swinv2_deploy",
+      "auc": 0.8665,
+      "auc_ci_lo": 0.8154619717613433,
+      "auc_ci_hi": 0.9175380282386568,
+      "n": 200,
+      "n_ok": 200,
+      "n_failed": 0,
+      "elapsed_s": 23.6
+    },
+    {
+      "family": "display",
+      "model_key": "vit_ai_real",
+      "auc": 0.4893,
+      "auc_ci_lo": 0.40910740672068646,
+      "auc_ci_hi": 0.5694925932793136,
+      "n": 200,
+      "n_ok": 200,
+      "n_failed": 0,
+      "elapsed_s": 18.4
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Digital test families used as proxy evidence.
+# 3-4 families are registered before scoring; parameters below are FROZEN at EXAM03
+# (2026-11-02) and must never be tuned on T_pilot or on any physical result.
+version: digital_families_v2_frozen
+created_at: "2026-10-26T00:00:00Z"
+frozen_at: "2026-11-02T06:39:00Z"
+approval_status: FROZEN_FOR_EXAM03
+freeze_stage: EXAM03
+freeze_evidence: >-
+  Parameters below are byte-for-byte the ones hard-coded in
+  scripts/make_digital_variants.py (PARAMS) before any digital score was produced;
+  the generator writes to data/digital/<family_id>/ and the manifest records each
+  file hash.  The earlier draft (v1) proposed different intensities; it was never
+  approved and is superseded here, not silently edited.
+
+aggregation:
+  primary: equal_weight_mean_of_family_auc
+  auxiliary: [worst_family, single_family]
+  note: digital family AUC aggregation is not pooled-AUC over mixed images
+
+families:
+  - id: F1_jpeg
+    kind: encode
+    parameters: {format: jpeg, quality: 75, subsampling: "4:2:0"}
+  - id: F2_scale
+    kind: rescale
+    parameters: {downscale: 0.5, upsample: bilinear, output_size: original}
+  - id: F3_blur
+    kind: blur
+    parameters: {kernel: gaussian, sigma: 0.8}
+  - id: F4_color
+    kind: color
+    parameters: {saturation: 1.2, brightness: 0.95, contrast: 1.05}
+
+baselines:
+  clean: original downloaded file (no re-encode)
+  display: actual 2560x1440 display asset for C_pool; for D_sel, which was never shown
+    on screen, the display baseline is identical to clean (documented, not scored twice
+    in the family aggregation)
+
+execution_contract:
+  deterministic: true
+  seed: 20261026
+  saved_versions: true
+  clean_baseline_also_scored: true
+  scoring_pool: C_pool (selection) + D_sel (digital hold-out)
+  excluded_from_selection: T_pilot (physical validation only)

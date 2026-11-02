@@ -1,0 +1,11 @@
+{
+  "session": "tech",
+  "expected": 20,
+  "files": 20,
+  "imported": 20,
+  "passed": 20,
+  "failed": 0,
+  "failure_codes": {},
+  "skipped": [],
+  "dry_run": false
+}

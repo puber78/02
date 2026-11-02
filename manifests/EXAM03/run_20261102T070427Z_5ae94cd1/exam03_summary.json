@@ -1,0 +1,163 @@
+{
+  "run_id": "run_20261102T070427Z_5ae94cd1",
+  "digital_scores_run": "run_20261102T065427Z_1e0c09aa",
+  "n_sources": 700,
+  "families": [
+    "F1_jpeg",
+    "F2_scale",
+    "F3_blur",
+    "F4_color"
+  ],
+  "models": [
+    "convnext_ai",
+    "resnet_ai",
+    "siglip_ai_human",
+    "swin_sdxl",
+    "swinv2_deploy",
+    "vit_ai_real"
+  ],
+  "c_pool": {
+    "convnext_ai": {
+      "family_aucs": {
+        "F1_jpeg": 0.5451,
+        "F2_scale": 0.6479,
+        "F3_blur": 0.5843,
+        "F4_color": 0.5195
+      },
+      "s_dig": 0.5742,
+      "s_worst": 0.5195,
+      "s_clean": 0.5153
+    },
+    "resnet_ai": {
+      "family_aucs": {
+        "F1_jpeg": 0.368,
+        "F2_scale": 0.2955,
+        "F3_blur": 0.3357,
+        "F4_color": 0.3745
+      },
+      "s_dig": 0.343425,
+      "s_worst": 0.2955,
+      "s_clean": 0.3727
+    },
+    "siglip_ai_human": {
+      "family_aucs": {
+        "F1_jpeg": 0.9007,
+        "F2_scale": 0.8492,
+        "F3_blur": 0.8785,
+        "F4_color": 0.8846
+      },
+      "s_dig": 0.87825,
+      "s_worst": 0.8492,
+      "s_clean": 0.8874
+    },
+    "swin_sdxl": {
+      "family_aucs": {
+        "F1_jpeg": 0.8104,
+        "F2_scale": 0.8302,
+        "F3_blur": 0.8551,
+        "F4_color": 0.8722
+      },
+      "s_dig": 0.841975,
+      "s_worst": 0.8104,
+      "s_clean": 0.8687
+    },
+    "swinv2_deploy": {
+      "family_aucs": {
+        "F1_jpeg": 0.8747,
+        "F2_scale": 0.8714,
+        "F3_blur": 0.9278,
+        "F4_color": 0.9388
+      },
+      "s_dig": 0.903175,
+      "s_worst": 0.8714,
+      "s_clean": 0.9435
+    },
+    "vit_ai_real": {
+      "family_aucs": {
+        "F1_jpeg": 0.4789,
+        "F2_scale": 0.4936,
+        "F3_blur": 0.483,
+        "F4_color": 0.465
+      },
+      "s_dig": 0.48012499999999997,
+      "s_worst": 0.465,
+      "s_clean": 0.4755
+    }
+  },
+  "d_sel": {
+    "convnext_ai": {
+      "family_aucs": {
+        "F1_jpeg": 0.655104,
+        "F2_scale": 0.727408,
+        "F3_blur": 0.67344,
+        "F4_color": 0.616448
+      },
+      "s_dig": 0.6681000000000001
+    },
+    "resnet_ai": {
+      "family_aucs": {
+        "F1_jpeg": 0.363496,
+        "F2_scale": 0.31376,
+        "F3_blur": 0.346248,
+        "F4_color": 0.381632
+      },
+      "s_dig": 0.351284
+    },
+    "siglip_ai_human": {
+      "family_aucs": {
+        "F1_jpeg": 0.912864,
+        "F2_scale": 0.869408,
+        "F3_blur": 0.88904,
+        "F4_color": 0.894048
+      },
+      "s_dig": 0.89134
+    },
+    "swin_sdxl": {
+      "family_aucs": {
+        "F1_jpeg": 0.775576,
+        "F2_scale": 0.804656,
+        "F3_blur": 0.829456,
+        "F4_color": 0.85816
+      },
+      "s_dig": 0.816962
+    },
+    "swinv2_deploy": {
+      "family_aucs": {
+        "F1_jpeg": 0.90904,
+        "F2_scale": 0.892944,
+        "F3_blur": 0.944624,
+        "F4_color": 0.957264
+      },
+      "s_dig": 0.925968
+    },
+    "vit_ai_real": {
+      "family_aucs": {
+        "F1_jpeg": 0.438512,
+        "F2_scale": 0.44832,
+        "F3_blur": 0.440208,
+        "F4_color": 0.423008
+      },
+      "s_dig": 0.437512
+    }
+  },
+  "choices": {
+    "S_dig": {
+      "chosen": "swinv2_deploy",
+      "criterion": "equal-weight mean of F1-F4 AUC on C_pool"
+    },
+    "S_worst": {
+      "chosen": "swinv2_deploy",
+      "criterion": "maximin over F1-F4 AUC on C_pool"
+    },
+    "S_clean": {
+      "chosen": "swinv2_deploy",
+      "criterion": "clean-only AUC on C_pool"
+    },
+    "S_rand": {
+      "chosen": "swin_sdxl",
+      "criterion": "uniform random, seed 20261026"
+    }
+  },
+  "frozen": true,
+  "note": "Rules were evaluated on C_pool only; T_pilot was not read. D_sel is a digital hold-out, not used to pick."
+}

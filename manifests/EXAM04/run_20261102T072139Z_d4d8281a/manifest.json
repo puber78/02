@@ -1,0 +1,61 @@
+{
+  "run_id": "run_20261102T072139Z_d4d8281a",
+  "inputs": {
+    "captures": {
+      "path": "manifests\\EXAM02\\EXAM02_captures_1000.parquet",
+      "sha256": "321b4ca58bd9ba31dd5b5f4fb87f25fc8a5566275217fa9270b95d6a3c85c3b6"
+    },
+    "digital_scores": {
+      "path": "scores\\EXAM03\\run_20261102T065427Z_1e0c09aa\\digital_scores.parquet",
+      "sha256": "5be6624b791a6410f39c373f845e7b4f2c87094bd94e0fd64999af46337e66a1"
+    },
+    "digital_samples": {
+      "path": "scores\\EXAM03\\run_20261102T065427Z_1e0c09aa\\digital_samples.parquet",
+      "sha256": "3a037f0ea2d7fc6c971978a422f5294febaf71dd6947daa42bd580a6e2dabce1"
+    }
+  },
+  "design": {
+    "role_families": {
+      "T_pilot": [
+        "F1_jpeg",
+        "F2_scale",
+        "F3_blur",
+        "F4_color"
+      ],
+      "C_pool": [
+        "clean"
+      ]
+    },
+    "models": [
+      "swinv2_deploy",
+      "siglip_ai_human",
+      "swin_sdxl",
+      "convnext_ai",
+      "resnet_ai",
+      "vit_ai_real"
+    ],
+    "physical": "EXAM02 captured frame score per model (orientation applied)",
+    "digital": "EXAM03 family score of the same source",
+    "repeats": "excluded from pairs; used only for the repeat-consistency analysis in EXAM04"
+  },
+  "n_captures": 899,
+  "n_pairs": 17994,
+  "n_unique_sources": 899,
+  "missing_digital_pairs": 0,
+  "by_role": {
+    "C_pool": 1194,
+    "T_pilot": 16800
+  },
+  "by_family": {
+    "F1_jpeg": 4200,
+    "F2_scale": 4200,
+    "F3_blur": 4200,
+    "F4_color": 4200,
+    "clean": 1194
+  },
+  "n_sources_by_role": {
+    "C_pool": 199,
+    "T_pilot": 700
+  },
+  "created_at": "2026-11-02T07:21:49+00:00"
+}

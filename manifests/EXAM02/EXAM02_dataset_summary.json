@@ -1,0 +1,87 @@
+{
+  "n_captures": 998,
+  "n_analysis": 998,
+  "by_status": {
+    "passed": 998
+  },
+  "by_role": {
+    "C_pool": 218,
+    "T_pilot": 780
+  },
+  "by_label": {
+    "1": 494,
+    "0": 504
+  },
+  "n_repeats": 99,
+  "n_missing_scores": 0,
+  "sessions": {
+    "main_s1": {
+      "import_run": "run_20261030T113014Z_082d2ef7",
+      "score_run": "run_20261030T113412Z_de5c9c99",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s10": {
+      "import_run": "run_20261102T060856Z_fae6174b",
+      "score_run": "run_20261102T061026Z_73fb77c5",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s2": {
+      "import_run": "run_20261102T061617Z_de8a919d",
+      "score_run": "run_20261102T061748Z_09a1077d",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s3": {
+      "import_run": "run_20261030T094833Z_122b06d8",
+      "score_run": "run_20261030T095115Z_29b8b048",
+      "n_captures": 98,
+      "n_scored": 98
+    },
+    "main_s4": {
+      "import_run": "run_20261030T095924Z_5b0d6491",
+      "score_run": "run_20261030T100225Z_9f73cff8",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s5": {
+      "import_run": "run_20261030T110801Z_b83753d9",
+      "score_run": "run_20261030T111202Z_27313cb3",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s6": {
+      "import_run": "run_20261102T061931Z_1160f3f0",
+      "score_run": "run_20261102T062055Z_16f60b1d",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s7": {
+      "import_run": "run_20261030T130221Z_daa0fe63",
+      "score_run": "run_20261030T130357Z_04a112aa",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s8": {
+      "import_run": "run_20261030T130747Z_58dd6ff2",
+      "score_run": "run_20261030T130911Z_bfef8a42",
+      "n_captures": 100,
+      "n_scored": 100
+    },
+    "main_s9": {
+      "import_run": "run_20261030T132356Z_ed6969fb",
+      "score_run": "run_20261030T132528Z_eec2b936",
+      "n_captures": 100,
+      "n_scored": 100
+    }
+  },
+  "model_keys": [
+    "swinv2_deploy",
+    "siglip_ai_human",
+    "swin_sdxl",
+    "convnext_ai",
+    "resnet_ai",
+    "vit_ai_real"
+  ]
+}

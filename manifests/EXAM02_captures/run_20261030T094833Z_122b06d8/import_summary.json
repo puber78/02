@@ -1,0 +1,22 @@
+{
+  "session": "main_s3",
+  "expected": 98,
+  "files": 100,
+  "imported": 98,
+  "missing": 0,
+  "passed": 98,
+  "failed": 0,
+  "excluded": 2,
+  "pinned": {
+    "210": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\captures\\incoming\\main_s3_retake\\IMG_20261030_172744.jpg",
+    "212": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\captures\\incoming\\main_s3_retake\\IMG_20261030_174008.jpg",
+    "214": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\captures\\incoming\\main_s3_retake\\IMG_20261030_172750.jpg",
+    "239": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\captures\\incoming\\main_s3_retake\\IMG_20261030_174017.jpg",
+    "277": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\captures\\incoming\\main_s3_retake\\IMG_20261030_172741.jpg"
+  },
+  "failure_codes": {
+    "EXCLUDED_PRIVACY": 2
+  },
+  "skipped": [],
+  "dry_run": false
+}

@@ -1,0 +1,59 @@
+prediction_id: PREDICTION02
+exam_id: EXAM02
+status: RETROSPECTIVE_RECORD
+authored_at: "2026-11-02T07:10:00Z"
+authored_before_this_record_existed: false
+retrospective_disclosure: >-
+  This file was written after EXAM02 field work had been completed and RESULT02
+  produced, because the executor recorded the pre-registered protocol in
+  ops/protocols/*.yaml and in WORKLOG.md instead of in a PREDICTION02 file.  It is
+  therefore a *reconstructed* record of what was frozen before capture, not a
+  timestamped pre-registration.  Every parameter cited here is traceable to a file
+  whose mtime precedes the first capture (see `evidence_anchors`); no number was
+  changed after seeing results.  Recorded as deviation D-P02 in RESULT02/RESULT09.
+type: protocol_expectation
+statement: >-
+  A fixed capture protocol (one 2560x1440 display, one phone, fixed distance and
+  framing) should make per-capture geometric and photometric quality stable across
+  10 sessions, with isolated failures traceable to procedurally detectable causes
+  (blur, glare, mis-press).  Detection AUC on rectified photos is expected to be
+  lower than on the untouched digital originals, with the gap differing by model.
+
+permitted_data_roles: [C_pool, T_pilot, TECH]
+physical_sessions_planned: 10
+captures_planned: 1000
+repeat_captures_planned: 100
+expected_properties:
+  - id: P2-1
+    statement: >= 98% of captures pass automated QC (resolution, registration, blur, glare)
+  - id: P2-2
+    statement: registration inliers >= 18 and content NCC >= 0.85 for >= 95% of accepted captures
+  - id: P2-3
+    statement: median screen-area fraction per session stays in 0.62-0.72 at 45 cm
+  - id: P2-4
+    statement: repeat pairs agree in AUC-level score with median |delta| <= 0.05
+  - id: P2-5
+    statement: every failed capture has an explicit failure code, never an imputed score
+thresholds_frozen:
+  min_matches: 18
+  min_inlier_ratio: 0.25
+  blur_laplacian_min: 60.0
+  clip_excess_max: 0.05          # DEC-0005
+  luma_min: 25.0
+  luma_max: 235.0
+  screen_area_band: [0.62, 0.72]
+  captures_per_session: 100
+evidence_anchors:
+  - ops/protocols/capture_protocol.yaml
+  - ops/protocols/proposed_parameters.yaml
+  - ops/decisions/DEC-0003_scale_1000.md
+  - ops/decisions/DEC-0005_exposure_gate_v2.md
+  - ops/decisions/DEC-0006_sharpness_gate_v2.md
+primary_budget_groups: null
+delta_auc_proposed: null
+result_path: reports/RESULT02.md
+actual_data_path: manifests/EXAM02/EXAM02_captures_1000.parquet
+note: >-
+  No AUC value or ranking is predicted here.  The record exists so that EXAM09 can
+  audit which thresholds were fixed before capture and which were added later
+  (DEC-0005/DEC-0006 were added mid-campaign with explicit logs).

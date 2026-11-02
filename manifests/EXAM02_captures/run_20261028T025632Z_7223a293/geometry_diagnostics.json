@@ -1,0 +1,162 @@
+[
+  {
+    "seq": 1,
+    "screen_area_fraction": 0.779,
+    "max_corner_dev_deg": 2.4,
+    "glare_fraction_gt235": 0.005,
+    "p99_luma": 228,
+    "inliers": 787
+  },
+  {
+    "seq": 2,
+    "screen_area_fraction": 0.789,
+    "max_corner_dev_deg": 2.7,
+    "glare_fraction_gt235": 0.0227,
+    "p99_luma": 242,
+    "inliers": 604
+  },
+  {
+    "seq": 3,
+    "screen_area_fraction": 0.811,
+    "max_corner_dev_deg": 2.8,
+    "glare_fraction_gt235": 0.0158,
+    "p99_luma": 240,
+    "inliers": 674
+  },
+  {
+    "seq": 4,
+    "screen_area_fraction": 0.816,
+    "max_corner_dev_deg": 3.0,
+    "glare_fraction_gt235": 0.0079,
+    "p99_luma": 233,
+    "inliers": 576
+  },
+  {
+    "seq": 5,
+    "screen_area_fraction": 0.815,
+    "max_corner_dev_deg": 3.0,
+    "glare_fraction_gt235": 0.0094,
+    "p99_luma": 235,
+    "inliers": 770
+  },
+  {
+    "seq": 6,
+    "screen_area_fraction": 0.814,
+    "max_corner_dev_deg": 2.6,
+    "glare_fraction_gt235": 0.0037,
+    "p99_luma": 213,
+    "inliers": 670
+  },
+  {
+    "seq": 7,
+    "screen_area_fraction": 0.826,
+    "max_corner_dev_deg": 3.1,
+    "glare_fraction_gt235": 0.0147,
+    "p99_luma": 238,
+    "inliers": 867
+  },
+  {
+    "seq": 8,
+    "screen_area_fraction": 0.831,
+    "max_corner_dev_deg": 2.5,
+    "glare_fraction_gt235": 0.015,
+    "p99_luma": 240,
+    "inliers": 818
+  },
+  {
+    "seq": 9,
+    "screen_area_fraction": 0.832,
+    "max_corner_dev_deg": 2.4,
+    "glare_fraction_gt235": 0.0064,
+    "p99_luma": 232,
+    "inliers": 860
+  },
+  {
+    "seq": 10,
+    "screen_area_fraction": 0.852,
+    "max_corner_dev_deg": 2.9,
+    "glare_fraction_gt235": 0.0149,
+    "p99_luma": 239,
+    "inliers": 156
+  },
+  {
+    "seq": 11,
+    "screen_area_fraction": 0.862,
+    "max_corner_dev_deg": 2.6,
+    "glare_fraction_gt235": 0.0148,
+    "p99_luma": 240,
+    "inliers": 893
+  },
+  {
+    "seq": 12,
+    "screen_area_fraction": 0.877,
+    "max_corner_dev_deg": 2.5,
+    "glare_fraction_gt235": 0.0074,
+    "p99_luma": 232,
+    "inliers": 554
+  },
+  {
+    "seq": 13,
+    "screen_area_fraction": 0.896,
+    "max_corner_dev_deg": 2.9,
+    "glare_fraction_gt235": 0.003,
+    "p99_luma": 227,
+    "inliers": 562
+  },
+  {
+    "seq": 14,
+    "screen_area_fraction": 0.915,
+    "max_corner_dev_deg": 3.6,
+    "glare_fraction_gt235": 0.0074,
+    "p99_luma": 231,
+    "inliers": 852
+  },
+  {
+    "seq": 15,
+    "screen_area_fraction": 0.933,
+    "max_corner_dev_deg": 3.2,
+    "glare_fraction_gt235": 0.002,
+    "p99_luma": 224,
+    "inliers": 616
+  },
+  {
+    "seq": 16,
+    "screen_area_fraction": 0.949,
+    "max_corner_dev_deg": 3.4,
+    "glare_fraction_gt235": 0.003,
+    "p99_luma": 209,
+    "inliers": 632
+  },
+  {
+    "seq": 17,
+    "screen_area_fraction": 0.954,
+    "max_corner_dev_deg": 3.8,
+    "glare_fraction_gt235": 0.0006,
+    "p99_luma": 217,
+    "inliers": 766
+  },
+  {
+    "seq": 18,
+    "screen_area_fraction": 0.961,
+    "max_corner_dev_deg": 4.6,
+    "glare_fraction_gt235": 0.0084,
+    "p99_luma": 233,
+    "inliers": 734
+  },
+  {
+    "seq": 19,
+    "screen_area_fraction": 0.978,
+    "max_corner_dev_deg": 3.8,
+    "glare_fraction_gt235": 0.009,
+    "p99_luma": 235,
+    "inliers": 640
+  },
+  {
+    "seq": 20,
+    "screen_area_fraction": 0.997,
+    "max_corner_dev_deg": 3.6,
+    "glare_fraction_gt235": 0.008,
+    "p99_luma": 233,
+    "inliers": 534
+  }
+]

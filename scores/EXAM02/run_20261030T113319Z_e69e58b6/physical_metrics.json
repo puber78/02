@@ -1,0 +1,61 @@
+{
+  "run_id": "run_20261030T113319Z_e69e58b6",
+  "session": "main_s6",
+  "import_run": "run_20261030T112845Z_0326018a",
+  "environment": "e1_r27qa_k80",
+  "n_samples": 98,
+  "coverage": {
+    "rows": 588,
+    "ok": 588,
+    "failed": 0,
+    "failure_codes": {},
+    "coverage": 1.0,
+    "expected_units": 588,
+    "complete": true
+  },
+  "models": [
+    {
+      "model_key": "swin_sdxl",
+      "model_id": "mdl_be8823ef8ded5831be8bae98",
+      "n": 98,
+      "failed": 0,
+      "auc": 0.825
+    },
+    {
+      "model_key": "siglip_ai_human",
+      "model_id": "mdl_1ac28aa8c2d55decacd81916",
+      "n": 98,
+      "failed": 0,
+      "auc": 0.8620833333333333
+    },
+    {
+      "model_key": "convnext_ai",
+      "model_id": "mdl_a033390521785af9a0cea398",
+      "n": 98,
+      "failed": 0,
+      "auc": 0.5508333333333333
+    },
+    {
+      "model_key": "resnet_ai",
+      "model_id": "mdl_5aea9eccc5ab5f0985c6eb84",
+      "n": 98,
+      "failed": 0,
+      "auc": 0.4091666666666667
+    },
+    {
+      "model_key": "swinv2_deploy",
+      "model_id": "mdl_be319390f1da5c9288088003",
+      "n": 98,
+      "failed": 0,
+      "auc": 0.8854166666666666
+    },
+    {
+      "model_key": "vit_ai_real",
+      "model_id": "mdl_36f44b70676c5d4993a462ff",
+      "n": 98,
+      "failed": 0,
+      "auc": 0.4579166666666667
+    }
+  ],
+  "note": "Session-level engineering check on n=98 captures. Not a scientific estimate by itself; the pre-registered EXAM02 analysis pools all sessions and reports bootstrap intervals."
+}

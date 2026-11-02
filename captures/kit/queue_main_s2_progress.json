@@ -1,0 +1,506 @@
+{
+  "items": {
+    "101": {
+      "status": "shot",
+      "display_asset_id": "dsp_57956dff31125595a0f534ce",
+      "recorded_at": "2026-10-30T08:50:05Z"
+    },
+    "102": {
+      "status": "shot",
+      "display_asset_id": "dsp_9f6ab13681b85c51a637c479",
+      "recorded_at": "2026-10-30T08:50:09Z"
+    },
+    "103": {
+      "status": "shot",
+      "display_asset_id": "dsp_cb3b95ce67de517ea8b3ddb4",
+      "recorded_at": "2026-10-30T08:50:12Z"
+    },
+    "104": {
+      "status": "shot",
+      "display_asset_id": "dsp_ea1c97d76c9551f4b78d7d91",
+      "recorded_at": "2026-10-30T08:50:14Z"
+    },
+    "105": {
+      "status": "shot",
+      "display_asset_id": "dsp_e02ba7d182e65f7fa7a52726",
+      "recorded_at": "2026-10-30T08:50:17Z"
+    },
+    "106": {
+      "status": "shot",
+      "display_asset_id": "dsp_55b4f74bea4456f68ed47f3f",
+      "recorded_at": "2026-10-30T08:50:20Z"
+    },
+    "107": {
+      "status": "shot",
+      "display_asset_id": "dsp_4ede36ea7f8258ea89957b5c",
+      "recorded_at": "2026-10-30T08:50:22Z"
+    },
+    "108": {
+      "status": "shot",
+      "display_asset_id": "dsp_c6022e892d2153f589a14b90",
+      "recorded_at": "2026-10-30T08:50:24Z"
+    },
+    "109": {
+      "status": "shot",
+      "display_asset_id": "dsp_4c56a4bf2c195e979c87e32e",
+      "recorded_at": "2026-10-30T08:50:26Z"
+    },
+    "110": {
+      "status": "shot",
+      "display_asset_id": "dsp_a7aa8e298b4a507daebc56ad",
+      "recorded_at": "2026-10-30T08:50:29Z"
+    },
+    "111": {
+      "status": "shot",
+      "display_asset_id": "dsp_7e11b10c014a54a599403e7d",
+      "recorded_at": "2026-10-30T08:50:31Z"
+    },
+    "112": {
+      "status": "shot",
+      "display_asset_id": "dsp_7dcebda3ae7b5a0da10e4797",
+      "recorded_at": "2026-10-30T08:50:33Z"
+    },
+    "113": {
+      "status": "shot",
+      "display_asset_id": "dsp_2609f4ed2d645b8dba78dde9",
+      "recorded_at": "2026-10-30T08:50:35Z"
+    },
+    "114": {
+      "status": "shot",
+      "display_asset_id": "dsp_78ca7a2b6d6b5369a1645f1d",
+      "recorded_at": "2026-10-30T08:50:37Z"
+    },
+    "115": {
+      "status": "shot",
+      "display_asset_id": "dsp_e1df25a40f6c5685b42895dc",
+      "recorded_at": "2026-10-30T08:50:39Z"
+    },
+    "116": {
+      "status": "shot",
+      "display_asset_id": "dsp_c62a453d682c5f3ea42e29de",
+      "recorded_at": "2026-10-30T08:50:41Z"
+    },
+    "117": {
+      "status": "shot",
+      "display_asset_id": "dsp_b91302917e675e35bd300960",
+      "recorded_at": "2026-10-30T08:50:43Z"
+    },
+    "118": {
+      "status": "shot",
+      "display_asset_id": "dsp_88791b26853d5079ba9141cc",
+      "recorded_at": "2026-10-30T08:50:45Z"
+    },
+    "119": {
+      "status": "shot",
+      "display_asset_id": "dsp_1c60b58564655ea8b6081cc2",
+      "recorded_at": "2026-10-30T08:50:47Z"
+    },
+    "120": {
+      "status": "shot",
+      "display_asset_id": "dsp_833f0a95159b5ecda60d2bb8",
+      "recorded_at": "2026-10-30T08:50:49Z"
+    },
+    "121": {
+      "status": "shot",
+      "display_asset_id": "dsp_3bddfdb763bb5353b55c20e8",
+      "recorded_at": "2026-10-30T08:50:51Z"
+    },
+    "122": {
+      "status": "shot",
+      "display_asset_id": "dsp_14994a012da25d94ad116e40",
+      "recorded_at": "2026-10-30T08:50:54Z"
+    },
+    "123": {
+      "status": "shot",
+      "display_asset_id": "dsp_98eb6af890ac5c2d9bd78c14",
+      "recorded_at": "2026-10-30T08:50:56Z"
+    },
+    "124": {
+      "status": "shot",
+      "display_asset_id": "dsp_12a99d86ffd15809befc6af2",
+      "recorded_at": "2026-10-30T08:50:58Z"
+    },
+    "125": {
+      "status": "shot",
+      "display_asset_id": "dsp_9f9a4d7589e95dda8a154ebe",
+      "recorded_at": "2026-10-30T08:51:00Z"
+    },
+    "126": {
+      "status": "shot",
+      "display_asset_id": "dsp_cecd72605c775a2eb2761c15",
+      "recorded_at": "2026-10-30T08:51:02Z"
+    },
+    "127": {
+      "status": "shot",
+      "display_asset_id": "dsp_410be86ea89e5238bc4f56fe",
+      "recorded_at": "2026-10-30T08:51:04Z"
+    },
+    "128": {
+      "status": "shot",
+      "display_asset_id": "dsp_02dc203afe4c5e50b92f6c18",
+      "recorded_at": "2026-10-30T08:51:06Z"
+    },
+    "129": {
+      "status": "shot",
+      "display_asset_id": "dsp_d1f6183a30bd5388bef05d03",
+      "recorded_at": "2026-10-30T08:51:08Z"
+    },
+    "130": {
+      "status": "shot",
+      "display_asset_id": "dsp_e482829cc62953879f815cc4",
+      "recorded_at": "2026-10-30T08:51:10Z"
+    },
+    "131": {
+      "status": "shot",
+      "display_asset_id": "dsp_cb3b95ce67de517ea8b3ddb4",
+      "recorded_at": "2026-10-30T08:51:12Z"
+    },
+    "132": {
+      "status": "shot",
+      "display_asset_id": "dsp_9d24c0e277cc5e74b2d29fed",
+      "recorded_at": "2026-10-30T08:51:15Z"
+    },
+    "133": {
+      "status": "shot",
+      "display_asset_id": "dsp_1918802526df50c3b2038b7e",
+      "recorded_at": "2026-10-30T08:51:16Z"
+    },
+    "134": {
+      "status": "shot",
+      "display_asset_id": "dsp_ac34800f324f5769b00be9a5",
+      "recorded_at": "2026-10-30T08:51:19Z"
+    },
+    "135": {
+      "status": "shot",
+      "display_asset_id": "dsp_67a047fe97e25894915de4bc",
+      "recorded_at": "2026-10-30T08:51:21Z"
+    },
+    "136": {
+      "status": "shot",
+      "display_asset_id": "dsp_1c8f424608ea5570b42b8b54",
+      "recorded_at": "2026-10-30T08:51:23Z"
+    },
+    "137": {
+      "status": "shot",
+      "display_asset_id": "dsp_66d24a874a805135bff15bed",
+      "recorded_at": "2026-10-30T08:51:24Z"
+    },
+    "138": {
+      "status": "shot",
+      "display_asset_id": "dsp_b0751e28444758f4852acea2",
+      "recorded_at": "2026-10-30T08:51:26Z"
+    },
+    "139": {
+      "status": "shot",
+      "display_asset_id": "dsp_33febffbdc3658f798293390",
+      "recorded_at": "2026-10-30T08:51:28Z"
+    },
+    "140": {
+      "status": "shot",
+      "display_asset_id": "dsp_a37379ac8c1b5d47956e9a43",
+      "recorded_at": "2026-10-30T08:51:30Z"
+    },
+    "141": {
+      "status": "shot",
+      "display_asset_id": "dsp_81f8c9717d005176bfc0a5fd",
+      "recorded_at": "2026-10-30T08:51:32Z"
+    },
+    "142": {
+      "status": "shot",
+      "display_asset_id": "dsp_d3c36c8c409e50f3a442b46d",
+      "recorded_at": "2026-10-30T08:51:35Z"
+    },
+    "143": {
+      "status": "shot",
+      "display_asset_id": "dsp_3261d96309d85631a7b44049",
+      "recorded_at": "2026-10-30T08:51:40Z"
+    },
+    "144": {
+      "status": "shot",
+      "display_asset_id": "dsp_04e602197c7856df94c9a903",
+      "recorded_at": "2026-10-30T08:51:43Z"
+    },
+    "145": {
+      "status": "shot",
+      "display_asset_id": "dsp_8fd06ad16c5151a786ba07ee",
+      "recorded_at": "2026-10-30T08:51:45Z"
+    },
+    "146": {
+      "status": "shot",
+      "display_asset_id": "dsp_688ef64ea4dd5cf4a8042e6d",
+      "recorded_at": "2026-10-30T08:51:47Z"
+    },
+    "147": {
+      "status": "shot",
+      "display_asset_id": "dsp_d9e00bdf70775ced8b6a75fd",
+      "recorded_at": "2026-10-30T08:51:49Z"
+    },
+    "148": {
+      "status": "shot",
+      "display_asset_id": "dsp_80a04f75235a56df8ac1ebfe",
+      "recorded_at": "2026-10-30T08:51:51Z"
+    },
+    "149": {
+      "status": "shot",
+      "display_asset_id": "dsp_0648ad7756505cfb889b1a32",
+      "recorded_at": "2026-10-30T08:51:53Z"
+    },
+    "150": {
+      "status": "shot",
+      "display_asset_id": "dsp_a7aa8e298b4a507daebc56ad",
+      "recorded_at": "2026-10-30T08:51:55Z"
+    },
+    "151": {
+      "status": "shot",
+      "display_asset_id": "dsp_57956dff31125595a0f534ce",
+      "recorded_at": "2026-10-30T08:51:57Z"
+    },
+    "152": {
+      "status": "shot",
+      "display_asset_id": "dsp_fcc53d4ae60657b8b8515706",
+      "recorded_at": "2026-10-30T08:51:59Z"
+    },
+    "153": {
+      "status": "shot",
+      "display_asset_id": "dsp_0fc75053cbe354c19a1ec7ad",
+      "recorded_at": "2026-10-30T08:52:01Z"
+    },
+    "154": {
+      "status": "shot",
+      "display_asset_id": "dsp_7e11b10c014a54a599403e7d",
+      "recorded_at": "2026-10-30T08:52:08Z"
+    },
+    "155": {
+      "status": "shot",
+      "display_asset_id": "dsp_692d1585ad1358328578e720",
+      "recorded_at": "2026-10-30T08:52:10Z"
+    },
+    "156": {
+      "status": "shot",
+      "display_asset_id": "dsp_6cc9b9f2a703565eaa32f228",
+      "recorded_at": "2026-10-30T08:52:12Z"
+    },
+    "157": {
+      "status": "shot",
+      "display_asset_id": "dsp_54918a7228585dd491edb44a",
+      "recorded_at": "2026-10-30T08:52:17Z"
+    },
+    "158": {
+      "status": "shot",
+      "display_asset_id": "dsp_279ff949805b53229c8467fb",
+      "recorded_at": "2026-10-30T08:52:19Z"
+    },
+    "159": {
+      "status": "shot",
+      "display_asset_id": "dsp_00a4691d75f2562fb22a4e4a",
+      "recorded_at": "2026-10-30T08:52:21Z"
+    },
+    "160": {
+      "status": "shot",
+      "display_asset_id": "dsp_3e5a72a30f2c5f8989739ec0",
+      "recorded_at": "2026-10-30T08:52:24Z"
+    },
+    "161": {
+      "status": "shot",
+      "display_asset_id": "dsp_e51b458aef215dc58cfbab12",
+      "recorded_at": "2026-10-30T08:52:26Z"
+    },
+    "162": {
+      "status": "shot",
+      "display_asset_id": "dsp_df6c2a995ce65d768fb8c456",
+      "recorded_at": "2026-10-30T08:52:28Z"
+    },
+    "163": {
+      "status": "shot",
+      "display_asset_id": "dsp_9e5de181dc9354fd80b88fc0",
+      "recorded_at": "2026-10-30T08:52:30Z"
+    },
+    "164": {
+      "status": "shot",
+      "display_asset_id": "dsp_09bea35917205ccf9e37fab1",
+      "recorded_at": "2026-10-30T08:52:32Z"
+    },
+    "165": {
+      "status": "shot",
+      "display_asset_id": "dsp_6465594e0543561d9802abb6",
+      "recorded_at": "2026-10-30T08:52:33Z"
+    },
+    "166": {
+      "status": "shot",
+      "display_asset_id": "dsp_fbaf884c80af567ca626aff7",
+      "recorded_at": "2026-10-30T08:52:36Z"
+    },
+    "167": {
+      "status": "shot",
+      "display_asset_id": "dsp_ad077ceeb07f569eb727b733",
+      "recorded_at": "2026-10-30T08:52:38Z"
+    },
+    "168": {
+      "status": "shot",
+      "display_asset_id": "dsp_1cae83326b44510b99543c12",
+      "recorded_at": "2026-10-30T08:52:40Z"
+    },
+    "169": {
+      "status": "shot",
+      "display_asset_id": "dsp_9fec5403da0b56deaeab432c",
+      "recorded_at": "2026-10-30T08:52:42Z"
+    },
+    "170": {
+      "status": "shot",
+      "display_asset_id": "dsp_73efa1ad5cb2558293ac39ec",
+      "recorded_at": "2026-10-30T08:52:43Z"
+    },
+    "171": {
+      "status": "shot",
+      "display_asset_id": "dsp_f1064c87e0475a48b6e046a5",
+      "recorded_at": "2026-10-30T08:52:45Z"
+    },
+    "172": {
+      "status": "shot",
+      "display_asset_id": "dsp_dcf1942f25c25142961b92ed",
+      "recorded_at": "2026-10-30T08:52:47Z"
+    },
+    "173": {
+      "status": "shot",
+      "display_asset_id": "dsp_e068ce9f87e55cc3883d57e6",
+      "recorded_at": "2026-10-30T08:52:49Z"
+    },
+    "174": {
+      "status": "shot",
+      "display_asset_id": "dsp_74ccfa82a7645295bcaacd53",
+      "recorded_at": "2026-10-30T08:52:51Z"
+    },
+    "175": {
+      "status": "shot",
+      "display_asset_id": "dsp_9a07d10a1ae659538a61e467",
+      "recorded_at": "2026-10-30T08:52:53Z"
+    },
+    "176": {
+      "status": "shot",
+      "display_asset_id": "dsp_f27b6169402153c28aff6e83",
+      "recorded_at": "2026-10-30T08:52:55Z"
+    },
+    "177": {
+      "status": "shot",
+      "display_asset_id": "dsp_100696fce2755d9a9d4b3fe8",
+      "recorded_at": "2026-10-30T08:52:57Z"
+    },
+    "178": {
+      "status": "shot",
+      "display_asset_id": "dsp_57a23f04a8bf5fc78aa77833",
+      "recorded_at": "2026-10-30T08:52:59Z"
+    },
+    "179": {
+      "status": "shot",
+      "display_asset_id": "dsp_a0d46b28a9ce5eab8c4f7324",
+      "recorded_at": "2026-10-30T08:53:01Z"
+    },
+    "180": {
+      "status": "shot",
+      "display_asset_id": "dsp_4e386e0600255463bf3e0030",
+      "recorded_at": "2026-10-30T08:53:03Z"
+    },
+    "181": {
+      "status": "shot",
+      "display_asset_id": "dsp_4cdbf0e614355f9881ada8b2",
+      "recorded_at": "2026-10-30T08:53:05Z"
+    },
+    "182": {
+      "status": "shot",
+      "display_asset_id": "dsp_9db461a413a45ae88b0fa551",
+      "recorded_at": "2026-10-30T08:53:07Z"
+    },
+    "183": {
+      "status": "shot",
+      "display_asset_id": "dsp_ee5cf8009982554483586958",
+      "recorded_at": "2026-10-30T08:53:09Z"
+    },
+    "184": {
+      "status": "shot",
+      "display_asset_id": "dsp_71cbed8ea71d5c43a023ac4c",
+      "recorded_at": "2026-10-30T08:53:11Z"
+    },
+    "185": {
+      "status": "shot",
+      "display_asset_id": "dsp_8fd06ad16c5151a786ba07ee",
+      "recorded_at": "2026-10-30T08:53:13Z"
+    },
+    "186": {
+      "status": "shot",
+      "display_asset_id": "dsp_2a006c1b5bd7523fb5f89bde",
+      "recorded_at": "2026-10-30T08:53:15Z"
+    },
+    "187": {
+      "status": "shot",
+      "display_asset_id": "dsp_80412c5cadae5113977622ea",
+      "recorded_at": "2026-10-30T08:53:17Z"
+    },
+    "188": {
+      "status": "shot",
+      "display_asset_id": "dsp_257a68524043500989ade27b",
+      "recorded_at": "2026-10-30T08:53:19Z"
+    },
+    "189": {
+      "status": "shot",
+      "display_asset_id": "dsp_a06bffb1fe555b32b12514f6",
+      "recorded_at": "2026-10-30T08:53:25Z"
+    },
+    "190": {
+      "status": "shot",
+      "display_asset_id": "dsp_f33879aebc2c5520b502d0ae",
+      "recorded_at": "2026-10-30T08:53:27Z"
+    },
+    "191": {
+      "status": "shot",
+      "display_asset_id": "dsp_2b5be8de25455ba38f28ba0a",
+      "recorded_at": "2026-10-30T08:53:29Z"
+    },
+    "192": {
+      "status": "shot",
+      "display_asset_id": "dsp_22d7b0a7cfb45f40a817f2bb",
+      "recorded_at": "2026-10-30T08:53:31Z"
+    },
+    "193": {
+      "status": "shot",
+      "display_asset_id": "dsp_2518864e2d435ee595da9bfe",
+      "recorded_at": "2026-10-30T08:53:40Z"
+    },
+    "194": {
+      "status": "shot",
+      "display_asset_id": "dsp_42aae05a8e6f5a29a220c770",
+      "recorded_at": "2026-10-30T08:53:42Z"
+    },
+    "195": {
+      "status": "shot",
+      "display_asset_id": "dsp_e7e701a1137452e8bff8dba5",
+      "recorded_at": "2026-10-30T08:53:44Z"
+    },
+    "196": {
+      "status": "shot",
+      "display_asset_id": "dsp_be1d3b9b4fd6595ea222d9ac",
+      "recorded_at": "2026-10-30T08:53:46Z"
+    },
+    "197": {
+      "status": "shot",
+      "display_asset_id": "dsp_7e4212061c18594184aa9681",
+      "recorded_at": "2026-10-30T08:53:48Z"
+    },
+    "198": {
+      "status": "shot",
+      "display_asset_id": "dsp_4336748ebe2a5d139112e0a5",
+      "recorded_at": "2026-10-30T08:53:50Z"
+    },
+    "199": {
+      "status": "shot",
+      "display_asset_id": "dsp_e646bf860c9357b69a4f7d46",
+      "recorded_at": "2026-10-30T08:53:54Z"
+    },
+    "200": {
+      "status": "shot",
+      "display_asset_id": "dsp_0be111add0fe5160be8ebca3",
+      "recorded_at": "2026-10-30T09:28:47Z"
+    }
+  },
+  "started_at": "2026-10-30T08:49:17Z",
+  "session": "main_s2"
+}

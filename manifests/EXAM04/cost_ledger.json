@@ -1,0 +1,71 @@
+{
+  "unit_cost_definition": "one screen display + one phone frame per source; a repeat is an extra frame on an existing source and never counts as a new source",
+  "frames_analysis": 998,
+  "unique_sources_analysis": 899,
+  "repeats_analysis": 99,
+  "privacy_substitutions": 2,
+  "attempt_runs": 29,
+  "attempt_failures": 138,
+  "sessions": [
+    {
+      "session": "main_s1",
+      "frames": 100,
+      "repeats": 4
+    },
+    {
+      "session": "main_s10",
+      "frames": 100,
+      "repeats": 13
+    },
+    {
+      "session": "main_s2",
+      "frames": 100,
+      "repeats": 8
+    },
+    {
+      "session": "main_s3",
+      "frames": 98,
+      "repeats": 7
+    },
+    {
+      "session": "main_s4",
+      "frames": 100,
+      "repeats": 9
+    },
+    {
+      "session": "main_s5",
+      "frames": 100,
+      "repeats": 11
+    },
+    {
+      "session": "main_s6",
+      "frames": 100,
+      "repeats": 10
+    },
+    {
+      "session": "main_s7",
+      "frames": 100,
+      "repeats": 8
+    },
+    {
+      "session": "main_s8",
+      "frames": 100,
+      "repeats": 14
+    },
+    {
+      "session": "main_s9",
+      "frames": 100,
+      "repeats": 15
+    }
+  ],
+  "storage_bytes": {
+    "physical_rectified_png": 11095343910,
+    "raw_sources_png": 716308822,
+    "display_assets_png": 2748483818
+  },
+  "notes": [
+    "998 analysis frames + 2 privacy-substituted frames = 1000 executed shots (DEC-0004).",
+    "Retake batches (s3/s4/s6/s7/s9/s10 retakes) are counted in attempt_runs and in attempt_failures, never as new sources.",
+    "captured_at has second resolution and some sessions were transferred in one batch, so wall-clock hours are not a reliable effort measure and are not reported."
+  ]
+}

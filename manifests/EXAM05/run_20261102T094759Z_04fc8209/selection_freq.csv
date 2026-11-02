@@ -1,0 +1,12 @@
+budget,model_key,count
+20,swinv2_deploy,107
+20,siglip_ai_human,51
+20,swin_sdxl,40
+20,resnet_ai,1
+20,vit_ai_real,1
+40,swinv2_deploy,120
+40,siglip_ai_human,52
+40,swin_sdxl,28
+80,swinv2_deploy,161
+80,siglip_ai_human,31
+80,swin_sdxl,8

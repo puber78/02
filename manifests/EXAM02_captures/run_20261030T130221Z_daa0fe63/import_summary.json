@@ -1,0 +1,17 @@
+{
+  "session": "main_s7",
+  "expected": 100,
+  "files": 100,
+  "imported": 100,
+  "missing": 0,
+  "passed": 100,
+  "failed": 0,
+  "excluded": 0,
+  "pinned": {
+    "605": "captures/incoming/main_s7_retake/IMG_20261030_210024.jpg",
+    "643": "captures/incoming/main_s7_retake/IMG_20261030_210008.jpg"
+  },
+  "failure_codes": {},
+  "skipped": [],
+  "dry_run": false
+}

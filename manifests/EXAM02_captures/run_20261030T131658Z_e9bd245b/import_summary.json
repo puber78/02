@@ -1,0 +1,16 @@
+{
+  "session": "main_s9",
+  "expected": 100,
+  "files": 100,
+  "imported": 100,
+  "missing": 0,
+  "passed": 99,
+  "failed": 1,
+  "excluded": 0,
+  "pinned": {},
+  "failure_codes": {
+    "EXPOSURE": 1
+  },
+  "skipped": [],
+  "dry_run": false
+}

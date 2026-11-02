@@ -1,0 +1,27 @@
+# PREDICTION05_amend_0001 — 时间戳口径更正（不改动预注册内容）
+
+amend_id: PREDICTION05_amend_0001
+amends: PREDICTION05.yaml
+written_at: "2026-11-02T09:56:00Z"
+author_role: "DeepSeek Harness 统计执行角色（非盲；见 DEC-0010）
+
+## 原因
+
+`PREDICTION05.yaml` 头部手写 `frozen_at: 2026-11-02T09:50:00Z`，但文件系统记录的最后写入时间为
+**2026-11-02T09:46:58Z**（本地 17:46:58）。两者不一致，属标签写错，不是内容改动。
+
+## 事实链
+
+1. `PREDICTION05.yaml` 最后写入：2026-11-02T09:46:58Z（文件 mtime）。
+2. 首次 EXAM05 计算：`manifests/EXAM05/run_20261102T094759Z_04fc8209` → run id 内嵌 **09:47:59Z**。
+3. 因此预注册仍然**先于**首次计算，时间差 61 秒。
+
+## 更正
+
+- 以 `2026-11-02T09:46:58Z` 为预注册生效时间；
+- `PREDICTION05.yaml` 的 `frozen_at` 字段**保持原样不修改**（预注册内容不得改），本文件作为口径说明；
+- `reports/RESULT05.md` §1 的时间引用以本文件为准。
+
+## 结论影响
+
+无。内容（预算、δ、重放次数、bootstrap、种子、允许结论、否证条件）一字未动。

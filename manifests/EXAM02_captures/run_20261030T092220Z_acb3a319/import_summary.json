@@ -1,0 +1,16 @@
+{
+  "session": "main_s3",
+  "expected": 100,
+  "files": 100,
+  "imported": 98,
+  "missing": 2,
+  "passed": 93,
+  "failed": 7,
+  "failure_codes": {
+    "EXPOSURE": 4,
+    "MISSING_CAPTURE": 2,
+    "REGISTRATION_FAILED": 1
+  },
+  "skipped": [],
+  "dry_run": false
+}

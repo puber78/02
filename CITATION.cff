@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this panel, its QC gates or the analysis code, please cite this repository."
+title: "Physical-Recapture Proxy Selection: a pre-registered study of AI-image detector degradation under screen photography"
+authors:
+  - family-names: "TODO-family-name"
+    given-names: "TODO-given-name"
+    affiliation: "TODO-affiliation"
+type: software
+repository-code: "https://github.com/OWNER/proxy-selection-research"
+license: MIT
+version: "0.5.0"
+date-released: "2026-11-02"
+abstract: >-
+  A pre-registered, attempt-logged study of how AI-image detectors degrade when
+  their inputs are photographed off a screen. 998 physical frames, 6 frozen
+  detectors, 4 digital degradation families, same-source digital-to-physical
+  pairing (899 sources / 17,994 pairs), and a pre-registered selection-loss
+  replay (EXAM05, negative at b=40).
+keywords:
+  - AI-image detection
+  - physical recapture
+  - screen photography
+  - benchmark validity
+  - pre-registration

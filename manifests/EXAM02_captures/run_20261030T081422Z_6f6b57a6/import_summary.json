@@ -1,0 +1,15 @@
+{
+  "session": "main_s1",
+  "expected": 100,
+  "files": 96,
+  "imported": 96,
+  "missing": 4,
+  "passed": 95,
+  "failed": 5,
+  "failure_codes": {
+    "MISSING_CAPTURE": 4,
+    "EXPOSURE": 1
+  },
+  "skipped": [],
+  "dry_run": false
+}

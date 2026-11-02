@@ -1,0 +1,120 @@
+{
+  "run_id": "run_20261102T072215Z_e00f6ab5",
+  "pairs_dir": "manifests\\EXAM04\\run_20261102T072139Z_d4d8281a",
+  "n_pairs": 17994,
+  "n_sources": 899,
+  "n_bootstrap": 2000,
+  "seed": 20261026,
+  "models": [
+    "swinv2_deploy",
+    "siglip_ai_human",
+    "swin_sdxl",
+    "convnext_ai",
+    "resnet_ai",
+    "vit_ai_real"
+  ],
+  "families": [
+    "F1_jpeg",
+    "F2_scale",
+    "F3_blur",
+    "F4_color"
+  ],
+  "model_table": [
+    {
+      "model_key": "swinv2_deploy",
+      "n_sources": 700,
+      "auc_digital_mean": 0.9235612244897959,
+      "auc_physical_mean": 0.8938122448979592,
+      "delta_mean": -0.029748979591836727,
+      "delta_ci_low": -0.046844171312625756,
+      "delta_ci_high": -0.013226836742704619,
+      "delta_family_min": -0.058726530612244865,
+      "delta_family_max": 0.00491428571428576,
+      "n_boot_used": 2000,
+      "n_boot_skipped": 0
+    },
+    {
+      "model_key": "siglip_ai_human",
+      "n_sources": 700,
+      "auc_digital_mean": 0.902495918367347,
+      "auc_physical_mean": 0.8507061224489796,
+      "delta_mean": -0.05178979591836738,
+      "delta_ci_low": -0.06643949338141156,
+      "delta_ci_high": -0.03750721876709951,
+      "delta_family_min": -0.06703265306122452,
+      "delta_family_max": -0.033146938775510226,
+      "n_boot_used": 2000,
+      "n_boot_skipped": 0
+    },
+    {
+      "model_key": "swin_sdxl",
+      "n_sources": 700,
+      "auc_digital_mean": 0.7795714285714286,
+      "auc_physical_mean": 0.7725795918367347,
+      "delta_mean": -0.006991836734693807,
+      "delta_ci_low": -0.033203405734280426,
+      "delta_ci_high": 0.01832363705617385,
+      "delta_family_min": -0.052261224489795866,
+      "delta_family_max": 0.02873469387755112,
+      "n_boot_used": 2000,
+      "n_boot_skipped": 0
+    },
+    {
+      "model_key": "convnext_ai",
+      "n_sources": 700,
+      "auc_digital_mean": 0.6122897959183674,
+      "auc_physical_mean": 0.5576734693877551,
+      "delta_mean": -0.05461632653061227,
+      "delta_ci_low": -0.07092918195171054,
+      "delta_ci_high": -0.03902135468000421,
+      "delta_family_min": -0.11079183673469395,
+      "delta_family_max": -0.008922448979591824,
+      "n_boot_used": 2000,
+      "n_boot_skipped": 0
+    },
+    {
+      "model_key": "resnet_ai",
+      "n_sources": 700,
+      "auc_digital_mean": 0.345280612244898,
+      "auc_physical_mean": 0.4111836734693878,
+      "delta_mean": 0.06590306122448981,
+      "delta_ci_low": 0.04808635186044672,
+      "delta_ci_high": 0.08440575450958192,
+      "delta_family_min": 0.03874693877551022,
+      "delta_family_max": 0.10033061224489798,
+      "n_boot_used": 2000,
+      "n_boot_skipped": 0
+    },
+    {
+      "model_key": "vit_ai_real",
+      "n_sources": 700,
+      "auc_digital_mean": 0.45773265306122446,
+      "auc_physical_mean": 0.4746530612244898,
+      "delta_mean": 0.016920408163265316,
+      "delta_ci_low": -0.000834618483580648,
+      "delta_ci_high": 0.03520899868662169,
+      "delta_family_min": 0.007665306122448978,
+      "delta_family_max": 0.027787755102040845,
+      "n_boot_used": 2000,
+      "n_boot_skipped": 0
+    }
+  ],
+  "sessions": {
+    "main_s1": 0.9092702169625246,
+    "main_s10": 0.8484848484848485,
+    "main_s2": 0.9357585139318886,
+    "main_s3": 0.83991683991684,
+    "main_s4": 0.9158653846153846,
+    "main_s5": 0.9361904761904762,
+    "main_s6": 0.9313725490196079,
+    "main_s7": 0.9151020408163265,
+    "main_s8": 0.8795955882352942,
+    "main_s9": 0.8420569329660239
+  },
+  "notes": [
+    "T_pilot digital scores were produced after the EXAM03 selection was frozen (DEC-0007); selection never read T_pilot.",
+    "clean (C_pool) is reported for completeness but is the selection pool, so it is not the confirmatory estimate.",
+    "Delta > 0 means the physical AUC is higher than the digital AUC on the identical sources."
+  ],
+  "created_at": "2026-11-02T07:23:25+00:00"
+}

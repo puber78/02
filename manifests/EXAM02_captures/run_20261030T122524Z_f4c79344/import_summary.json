@@ -1,0 +1,16 @@
+{
+  "session": "main_s7",
+  "expected": 100,
+  "files": 100,
+  "imported": 100,
+  "missing": 0,
+  "passed": 98,
+  "failed": 2,
+  "excluded": 0,
+  "pinned": {},
+  "failure_codes": {
+    "EXPOSURE": 2
+  },
+  "skipped": [],
+  "dry_run": false
+}

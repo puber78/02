@@ -1,0 +1,702 @@
+[
+  {
+    "seq": 401,
+    "label": 0,
+    "content_match": 0.9681,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 402,
+    "label": 1,
+    "content_match": 0.9728,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 403,
+    "label": 0,
+    "content_match": 0.926,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 404,
+    "label": 0,
+    "content_match": 0.9564,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 405,
+    "label": 1,
+    "content_match": 0.9145,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 406,
+    "label": 0,
+    "content_match": 0.9092,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 407,
+    "label": 1,
+    "content_match": 0.9677,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 408,
+    "label": 1,
+    "content_match": 0.9453,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 409,
+    "label": 1,
+    "content_match": 0.9613,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 410,
+    "label": 0,
+    "content_match": 0.9782,
+    "cap_size": "1152x1440",
+    "crop_size": "1152x1440"
+  },
+  {
+    "seq": 411,
+    "label": 0,
+    "content_match": 0.9518,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 412,
+    "label": 1,
+    "content_match": 0.9477,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 413,
+    "label": 1,
+    "content_match": 0.9697,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 414,
+    "label": 0,
+    "content_match": 0.9211,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 415,
+    "label": 0,
+    "content_match": 0.9623,
+    "cap_size": "1152x1440",
+    "crop_size": "1152x1440"
+  },
+  {
+    "seq": 416,
+    "label": 1,
+    "content_match": 0.9666,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 417,
+    "label": 0,
+    "content_match": 0.8919,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 418,
+    "label": 1,
+    "content_match": 0.9497,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 419,
+    "label": 1,
+    "content_match": 0.9648,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 420,
+    "label": 0,
+    "content_match": 0.9659,
+    "cap_size": "1436x1440",
+    "crop_size": "1436x1440"
+  },
+  {
+    "seq": 421,
+    "label": 0,
+    "content_match": 0.8928,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 422,
+    "label": 1,
+    "content_match": 0.9561,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 423,
+    "label": 1,
+    "content_match": 0.9671,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 424,
+    "label": 0,
+    "content_match": 0.981,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 425,
+    "label": 0,
+    "content_match": 0.9757,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 426,
+    "label": 1,
+    "content_match": 0.971,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 427,
+    "label": 1,
+    "content_match": 0.9755,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 428,
+    "label": 1,
+    "content_match": 0.9541,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 429,
+    "label": 0,
+    "content_match": 0.834,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 430,
+    "label": 0,
+    "content_match": 0.9298,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 431,
+    "label": 1,
+    "content_match": 0.9747,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 432,
+    "label": 0,
+    "content_match": 0.9801,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 433,
+    "label": 1,
+    "content_match": 0.9716,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 434,
+    "label": 1,
+    "content_match": 0.9455,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 435,
+    "label": 0,
+    "content_match": 0.9671,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 436,
+    "label": 1,
+    "content_match": 0.916,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 437,
+    "label": 0,
+    "content_match": 0.9801,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 438,
+    "label": 1,
+    "content_match": 0.9376,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 439,
+    "label": 0,
+    "content_match": 0.9659,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 440,
+    "label": 0,
+    "content_match": 0.9015,
+    "cap_size": "1916x1440",
+    "crop_size": "1916x1440"
+  },
+  {
+    "seq": 441,
+    "label": 1,
+    "content_match": 0.9473,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 442,
+    "label": 0,
+    "content_match": 0.983,
+    "cap_size": "1455x1440",
+    "crop_size": "1455x1440"
+  },
+  {
+    "seq": 443,
+    "label": 1,
+    "content_match": 0.9648,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 444,
+    "label": 1,
+    "content_match": 0.977,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 445,
+    "label": 0,
+    "content_match": 0.8236,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 446,
+    "label": 0,
+    "content_match": 0.9381,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 447,
+    "label": 0,
+    "content_match": 0.9664,
+    "cap_size": "1436x1440",
+    "crop_size": "1436x1440"
+  },
+  {
+    "seq": 448,
+    "label": 1,
+    "content_match": 0.9554,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 449,
+    "label": 0,
+    "content_match": 0.9622,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 450,
+    "label": 0,
+    "content_match": 0.9638,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 451,
+    "label": 1,
+    "content_match": 0.9655,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 452,
+    "label": 1,
+    "content_match": 0.9378,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 453,
+    "label": 0,
+    "content_match": 0.9538,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 454,
+    "label": 0,
+    "content_match": 0.9445,
+    "cap_size": "1316x1440",
+    "crop_size": "1316x1440"
+  },
+  {
+    "seq": 455,
+    "label": 1,
+    "content_match": 0.9645,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 456,
+    "label": 1,
+    "content_match": 0.9589,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 457,
+    "label": 0,
+    "content_match": 0.9591,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 458,
+    "label": 1,
+    "content_match": 0.9744,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 459,
+    "label": 0,
+    "content_match": 0.9265,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 460,
+    "label": 0,
+    "content_match": 0.9222,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 461,
+    "label": 1,
+    "content_match": 0.9749,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 462,
+    "label": 1,
+    "content_match": 0.9405,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 463,
+    "label": 0,
+    "content_match": 0.9441,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 464,
+    "label": 1,
+    "content_match": 0.9044,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 465,
+    "label": 0,
+    "content_match": 0.9516,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 466,
+    "label": 0,
+    "content_match": 0.9628,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 467,
+    "label": 1,
+    "content_match": 0.965,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 468,
+    "label": 0,
+    "content_match": 0.9599,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 469,
+    "label": 1,
+    "content_match": 0.9413,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 470,
+    "label": 1,
+    "content_match": 0.9681,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 471,
+    "label": 0,
+    "content_match": 0.974,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 472,
+    "label": 1,
+    "content_match": 0.9605,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 473,
+    "label": 0,
+    "content_match": 0.9668,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 474,
+    "label": 1,
+    "content_match": 0.9656,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 475,
+    "label": 0,
+    "content_match": 0.9539,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 476,
+    "label": 0,
+    "content_match": 0.9413,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 477,
+    "label": 0,
+    "content_match": 0.9772,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 478,
+    "label": 1,
+    "content_match": 0.9635,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 479,
+    "label": 1,
+    "content_match": 0.9592,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 480,
+    "label": 0,
+    "content_match": 0.9646,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 481,
+    "label": 1,
+    "content_match": 0.9746,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 482,
+    "label": 0,
+    "content_match": 0.952,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 483,
+    "label": 1,
+    "content_match": 0.9716,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 484,
+    "label": 0,
+    "content_match": 0.9461,
+    "cap_size": "1821x1440",
+    "crop_size": "1821x1440"
+  },
+  {
+    "seq": 485,
+    "label": 0,
+    "content_match": 0.9487,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 486,
+    "label": 1,
+    "content_match": 0.969,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 487,
+    "label": 1,
+    "content_match": 0.9488,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 488,
+    "label": 0,
+    "content_match": 0.9489,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 489,
+    "label": 0,
+    "content_match": 0.9623,
+    "cap_size": "1900x1440",
+    "crop_size": "1900x1440"
+  },
+  {
+    "seq": 490,
+    "label": 1,
+    "content_match": 0.8975,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 491,
+    "label": 0,
+    "content_match": 0.9187,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 492,
+    "label": 1,
+    "content_match": 0.9423,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 493,
+    "label": 1,
+    "content_match": 0.9738,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 494,
+    "label": 0,
+    "content_match": 0.9304,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 495,
+    "label": 0,
+    "content_match": 0.978,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 496,
+    "label": 1,
+    "content_match": 0.9758,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  },
+  {
+    "seq": 497,
+    "label": 0,
+    "content_match": 0.98,
+    "cap_size": "1446x1440",
+    "crop_size": "1446x1440"
+  },
+  {
+    "seq": 498,
+    "label": 0,
+    "content_match": 0.9644,
+    "cap_size": "1920x1440",
+    "crop_size": "1920x1440"
+  },
+  {
+    "seq": 499,
+    "label": 0,
+    "content_match": 0.889,
+    "cap_size": "1080x1440",
+    "crop_size": "1080x1440"
+  },
+  {
+    "seq": 500,
+    "label": 1,
+    "content_match": 0.944,
+    "cap_size": "1440x1440",
+    "crop_size": "1440x1440"
+  }
+]

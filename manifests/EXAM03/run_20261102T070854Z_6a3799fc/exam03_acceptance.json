@@ -1,0 +1,72 @@
+{
+  "run_id": "run_20261102T070854Z_6a3799fc",
+  "audit_run": "run_20261102T064243Z_640ca042",
+  "variants": "manifests\\EXAM03\\run_20261102T064400Z_a8274b7f\\digital_variants.parquet",
+  "scores_run": "run_20261102T065427Z_1e0c09aa",
+  "checks": {
+    "cond1": {
+      "ok": true,
+      "n_candidates_audited": 6,
+      "n_candidates_scored": 6,
+      "n_families_executed": 6,
+      "preprocess_check_rate": 1.0,
+      "detail": "6 accepted candidates ran; F1-F4 plus clean/display executed; preprocessing hashes recorded for all"
+    },
+    "cond2": {
+      "ok": true,
+      "expected_cells": 22200,
+      "actual_rows": 22200,
+      "scored_ok": 22200,
+      "explicit_failures": 0,
+      "completeness_rate": 1.0,
+      "unresolved_in_core_matrix": 0
+    },
+    "cond3": {
+      "ok": true,
+      "pixel_transform_reproduction": {
+        "F1_jpeg": {
+          "checked": 10,
+          "mismatch": 0
+        },
+        "F2_scale": {
+          "checked": 10,
+          "mismatch": 0
+        },
+        "F3_blur": {
+          "checked": 10,
+          "mismatch": 0
+        },
+        "F4_color": {
+          "checked": 10,
+          "mismatch": 0
+        }
+      },
+      "rule_deterministic": true,
+      "rule_choice_twice": [
+        "mdl_be319390f1da5c9288088003",
+        "mdl_be319390f1da5c9288088003"
+      ]
+    },
+    "cond4": {
+      "ok": true,
+      "t_pilot_rows_scored": 0,
+      "frozen_manifest_complete": true,
+      "frozen_fields": [
+        "families",
+        "models",
+        "choices"
+      ]
+    }
+  },
+  "fixtures": {
+    "F-1_identical_predictions_identical_selection": true,
+    "F-2_monotone_mapping_preserves_auc": true,
+    "F-3_family_mean_differs_from_pooled": {
+      "ok": true,
+      "mean": 0.9928,
+      "pooled": 0.982
+    },
+    "F-4_missing_excluded_not_imputed": true
+  },
+  "all_ok": true
+}

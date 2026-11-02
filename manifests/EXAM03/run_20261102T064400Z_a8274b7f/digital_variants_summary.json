@@ -1,0 +1,43 @@
+{
+  "run_id": "run_20261102T064400Z_a8274b7f",
+  "exam02_run": "run_20261027T005511Z_2177a59d",
+  "n_sources": 700,
+  "by_role": {
+    "D_sel": 500,
+    "C_pool": 200
+  },
+  "families": {
+    "clean": {},
+    "display": {},
+    "F1_jpeg": {
+      "format": "jpeg",
+      "quality": 75,
+      "subsampling": "4:2:0"
+    },
+    "F2_scale": {
+      "downscale": 0.5,
+      "upsample": "bilinear",
+      "output_size": "original"
+    },
+    "F3_blur": {
+      "kernel": "gaussian",
+      "sigma": 0.8
+    },
+    "F4_color": {
+      "saturation": 1.2,
+      "brightness": 0.95,
+      "contrast": 1.05
+    }
+  },
+  "n_rows": 4200,
+  "by_family": {
+    "clean": 700,
+    "display": 700,
+    "F1_jpeg": 700,
+    "F2_scale": 700,
+    "F3_blur": 700,
+    "F4_color": 700
+  },
+  "elapsed_s": 77.9,
+  "note": "clean/display rows reference existing files; generated families are written once and reused if the hash matches."
+}

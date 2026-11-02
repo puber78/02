@@ -1,0 +1,343 @@
+{
+  "run_id": "run_20261102T071316Z_13a6975a",
+  "manifest": "manifests\\EXAM03\\run_20261102T071151Z_397108f4\\digital_variants.parquet",
+  "families": [
+    "clean",
+    "F1_jpeg",
+    "F2_scale",
+    "F3_blur",
+    "F4_color"
+  ],
+  "metrics": [
+    {
+      "family": "clean",
+      "model_key": "swin_sdxl",
+      "auc": 0.8201632653061225,
+      "auc_ci_lo": 0.7888896049761344,
+      "auc_ci_hi": 0.8514369256361106,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 24.4
+    },
+    {
+      "family": "clean",
+      "model_key": "siglip_ai_human",
+      "auc": 0.9054938775510204,
+      "auc_ci_lo": 0.8825025546909624,
+      "auc_ci_hi": 0.9284852004110784,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 13.3
+    },
+    {
+      "family": "clean",
+      "model_key": "convnext_ai",
+      "auc": 0.568204081632653,
+      "auc_ci_lo": 0.5258912472972409,
+      "auc_ci_hi": 0.6105169159680651,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 9.3
+    },
+    {
+      "family": "clean",
+      "model_key": "resnet_ai",
+      "auc": 0.37126530612244896,
+      "auc_ci_lo": 0.33021450925701534,
+      "auc_ci_hi": 0.41231610298788257,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 12.3
+    },
+    {
+      "family": "clean",
+      "model_key": "swinv2_deploy",
+      "auc": 0.9594448979591836,
+      "auc_ci_lo": 0.9444005431916003,
+      "auc_ci_hi": 0.974489252726767,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 30.1
+    },
+    {
+      "family": "clean",
+      "model_key": "vit_ai_real",
+      "auc": 0.4560489795918367,
+      "auc_ci_lo": 0.41345068879295194,
+      "auc_ci_hi": 0.4986472703907215,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 15.8
+    },
+    {
+      "family": "F1_jpeg",
+      "model_key": "swin_sdxl",
+      "auc": 0.7438448979591836,
+      "auc_ci_lo": 0.7075033142494309,
+      "auc_ci_hi": 0.7801864816689363,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 13.8
+    },
+    {
+      "family": "F1_jpeg",
+      "model_key": "siglip_ai_human",
+      "auc": 0.9177387755102041,
+      "auc_ci_lo": 0.8962780843187378,
+      "auc_ci_hi": 0.9391994667016704,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 12.5
+    },
+    {
+      "family": "F1_jpeg",
+      "model_key": "convnext_ai",
+      "auc": 0.594465306122449,
+      "auc_ci_lo": 0.5526026363586923,
+      "auc_ci_hi": 0.6363279758862056,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 8.7
+    },
+    {
+      "family": "F1_jpeg",
+      "model_key": "resnet_ai",
+      "auc": 0.36206122448979594,
+      "auc_ci_lo": 0.3212725887979314,
+      "auc_ci_hi": 0.40284986018166047,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 11.4
+    },
+    {
+      "family": "F1_jpeg",
+      "model_key": "swinv2_deploy",
+      "auc": 0.9128897959183674,
+      "auc_ci_lo": 0.8908088268966976,
+      "auc_ci_hi": 0.9349707649400372,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 30.8
+    },
+    {
+      "family": "F1_jpeg",
+      "model_key": "vit_ai_real",
+      "auc": 0.4562775510204082,
+      "auc_ci_lo": 0.413677160564988,
+      "auc_ci_hi": 0.49887794147582837,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 15.8
+    },
+    {
+      "family": "F2_scale",
+      "model_key": "swin_sdxl",
+      "auc": 0.7585714285714286,
+      "auc_ci_lo": 0.7230732151076117,
+      "auc_ci_hi": 0.7940696420352454,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 13.7
+    },
+    {
+      "family": "F2_scale",
+      "model_key": "siglip_ai_human",
+      "auc": 0.8838530612244898,
+      "auc_ci_lo": 0.8584119993922829,
+      "auc_ci_hi": 0.9092941230566968,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 13.1
+    },
+    {
+      "family": "F2_scale",
+      "model_key": "convnext_ai",
+      "auc": 0.668465306122449,
+      "auc_ci_lo": 0.6286833049386301,
+      "auc_ci_hi": 0.708247307306268,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 9.0
+    },
+    {
+      "family": "F2_scale",
+      "model_key": "resnet_ai",
+      "auc": 0.3108530612244898,
+      "auc_ci_lo": 0.2718759270965979,
+      "auc_ci_hi": 0.3498301953523817,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 11.7
+    },
+    {
+      "family": "F2_scale",
+      "model_key": "swinv2_deploy",
+      "auc": 0.8888979591836734,
+      "auc_ci_lo": 0.8640021044091569,
+      "auc_ci_hi": 0.9137938139581899,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 31.1
+    },
+    {
+      "family": "F2_scale",
+      "model_key": "vit_ai_real",
+      "auc": 0.4669877551020408,
+      "auc_ci_lo": 0.4243012979727423,
+      "auc_ci_hi": 0.5096742122313394,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 15.4
+    },
+    {
+      "family": "F3_blur",
+      "model_key": "swin_sdxl",
+      "auc": 0.7910285714285714,
+      "auc_ci_lo": 0.7576084738763693,
+      "auc_ci_hi": 0.8244486689807735,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 14.7
+    },
+    {
+      "family": "F3_blur",
+      "model_key": "siglip_ai_human",
+      "auc": 0.904130612244898,
+      "auc_ci_lo": 0.8809759035508757,
+      "auc_ci_hi": 0.9272853209389202,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 14.2
+    },
+    {
+      "family": "F3_blur",
+      "model_key": "convnext_ai",
+      "auc": 0.6196326530612245,
+      "auc_ci_lo": 0.578341109959552,
+      "auc_ci_hi": 0.660924196162897,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 10.0
+    },
+    {
+      "family": "F3_blur",
+      "model_key": "resnet_ai",
+      "auc": 0.33577142857142855,
+      "auc_ci_lo": 0.29583694248985815,
+      "auc_ci_hi": 0.37570591465299896,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 13.1
+    },
+    {
+      "family": "F3_blur",
+      "model_key": "swinv2_deploy",
+      "auc": 0.9399183673469388,
+      "auc_ci_lo": 0.9215812717180266,
+      "auc_ci_hi": 0.958255462975851,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 30.6
+    },
+    {
+      "family": "F3_blur",
+      "model_key": "vit_ai_real",
+      "auc": 0.4608,
+      "auc_ci_lo": 0.4181603265962939,
+      "auc_ci_hi": 0.5034396734037061,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 16.0
+    },
+    {
+      "family": "F4_color",
+      "model_key": "swin_sdxl",
+      "auc": 0.8248408163265306,
+      "auc_ci_lo": 0.7939389042168318,
+      "auc_ci_hi": 0.8557427284362294,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 14.0
+    },
+    {
+      "family": "F4_color",
+      "model_key": "siglip_ai_human",
+      "auc": 0.904261224489796,
+      "auc_ci_lo": 0.8811221122609764,
+      "auc_ci_hi": 0.9274003367186155,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 14.3
+    },
+    {
+      "family": "F4_color",
+      "model_key": "convnext_ai",
+      "auc": 0.5665959183673469,
+      "auc_ci_lo": 0.5242603009481613,
+      "auc_ci_hi": 0.6089315357865325,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 10.0
+    },
+    {
+      "family": "F4_color",
+      "model_key": "resnet_ai",
+      "auc": 0.37243673469387756,
+      "auc_ci_lo": 0.331353925482018,
+      "auc_ci_hi": 0.41351954390573714,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 13.4
+    },
+    {
+      "family": "F4_color",
+      "model_key": "swinv2_deploy",
+      "auc": 0.952538775510204,
+      "auc_ci_lo": 0.9362535040358194,
+      "auc_ci_hi": 0.9688240469845887,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 32.1
+    },
+    {
+      "family": "F4_color",
+      "model_key": "vit_ai_real",
+      "auc": 0.44686530612244896,
+      "auc_ci_lo": 0.40436048285791576,
+      "auc_ci_hi": 0.48937012938698216,
+      "n": 700,
+      "n_ok": 700,
+      "n_failed": 0,
+      "elapsed_s": 16.2
+    }
+  ]
+}

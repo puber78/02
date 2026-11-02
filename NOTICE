@@ -1,0 +1,39 @@
+# Third-party notices
+
+This project evaluates public AI-image detectors and uses public image corpora.
+No third-party weights or source images are redistributed in this repository.
+
+## Datasets (identifiers and licences only)
+
+- **COCO** (COCO 2017 validation subset, images used as "real" content).
+  Licence: CC BY 4.0 (annotations) / Flickr terms per image. https://cocodataset.org
+- **ELSA1M** (AI-generated subset used as "AI" content).
+  Licence: research use, see the dataset card. https://huggingface.co/datasets/elsaEU/ELSA1M
+
+Per-image source IDs and licence fields are recorded in
+`manifests/EXAM02/run_*/sources.parquet`; a SHA-256 of each source file is in the
+same table (`original_file_sha256`).
+
+## Models (evaluated, not redistributed)
+
+| key | checkpoint | revision |
+| --- | --- | --- |
+| `swinv2_deploy` | `Organika/sdxl-detector` (SwinV2) | pinned in `models/registry.json` |
+| `siglip_ai_human` | SigLIP-based detector | pinned |
+| `swin_sdxl` | SDXL-detector variant | pinned |
+| `convnext_ai` | ConvNeXt detector | pinned |
+| `resnet_ai` | `mmanikanta/ResNet_AI_image_detector` | pinned |
+| `vit_ai_real` | `Cyberdon360/ai-vs-real-image-detector` | pinned |
+
+Exact commit hashes and file hashes are recorded in `manifests/EXAM01/*` and
+`models/registry.json`; each model's declared `id2label` mapping is quoted in
+`ops/decisions/DEC-0011_orientation_convention.md`.
+
+## Fonts / UI assets
+
+None. The capture viewer draws only rectangles and text with OpenCV.
+
+## Citation
+
+If you use the panel, the QC gates or the analysis code, please cite this
+repository (see `CITATION.cff`).

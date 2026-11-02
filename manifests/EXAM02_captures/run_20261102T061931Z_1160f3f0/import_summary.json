@@ -1,0 +1,17 @@
+{
+  "session": "main_s6",
+  "expected": 100,
+  "files": 100,
+  "imported": 100,
+  "missing": 0,
+  "passed": 100,
+  "failed": 0,
+  "excluded": 0,
+  "pinned": {
+    "579": "captures/incoming/main_s6_retake/IMG_20261030_193830.jpg",
+    "584": "captures/incoming/main_s6_retake/IMG_20261030_194807.jpg"
+  },
+  "failure_codes": {},
+  "skipped": [],
+  "dry_run": false
+}

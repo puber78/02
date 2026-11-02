@@ -1,0 +1,425 @@
+{
+  "run_id": "run_20261102T063903Z_464d8c65",
+  "n_candidates": 6,
+  "n_accepted": 4,
+  "batch_tolerance": 1e-05,
+  "determinism_tolerance": 1e-06,
+  "fixtures": {
+    "n_per_label": 4,
+    "source": "data/raw/TECH/technical_sources.csv"
+  },
+  "candidates": [
+    {
+      "model_key": "swin_sdxl",
+      "model_id": "mdl_be8823ef8ded5831be8bae98",
+      "repo": "organika/sdxl-detector",
+      "requested_revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+      "resolved_commit": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+      "architecture": [
+        "SwinForImageClassification"
+      ],
+      "num_parameters": 86745274,
+      "checkpoint_hash": "bd2f1777adb6d3f466f668b9ee8fa1d80642c31ae92c293d327592401f1267b6",
+      "preprocess_hash": "dde54b7b3a23101cbbf0b500b979342ff5c70a8553d3256be4d6d8a447fde528",
+      "preprocess": {
+        "class": "ViTImageProcessor",
+        "size": {
+          "height": 224,
+          "width": 224
+        },
+        "do_resize": true,
+        "resample": 3,
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "image_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "do_convert_rgb": false
+      },
+      "id2label": {
+        "0": "artificial",
+        "1": "human"
+      },
+      "ai_index": 0,
+      "ai_label": "artificial",
+      "score_direction": "higher_is_ai",
+      "load_seconds": 11.24,
+      "batch_delta_max": 1.79e-07,
+      "determinism_delta_max": 0.0,
+      "batch_independent": true,
+      "deterministic": true,
+      "corrupt_input_failed_explicitly": true,
+      "corrupt_failure_code": "MODEL_ERROR",
+      "fixture_mean_ai": 0.4419,
+      "fixture_mean_real": 0.0007,
+      "fixture_direction_consistent": true,
+      "fixture_scores": {
+        "ai": [
+          0.000674,
+          0.001535,
+          0.76538,
+          0.999922
+        ],
+        "real": [
+          1e-06,
+          4.2e-05,
+          0.0,
+          0.002565
+        ]
+      },
+      "device": "cuda:0",
+      "accepted": true
+    },
+    {
+      "model_key": "siglip_ai_human",
+      "model_id": "mdl_1ac28aa8c2d55decacd81916",
+      "repo": "Ateeqq/ai-vs-human-image-detector",
+      "requested_revision": "60e82406916921b823616bee33397baab38af3f0",
+      "resolved_commit": "60e82406916921b823616bee33397baab38af3f0",
+      "architecture": [
+        "SiglipForImageClassification"
+      ],
+      "num_parameters": 92885762,
+      "checkpoint_hash": "5620845f239d2f4a1c0e4cb6b9d675e4dc419b05c49974724af6f870d3e3ca91",
+      "preprocess_hash": "2bd74271f5a5b00a764b7a696117974beb676f6306ecf2b5c7c7a1d0f26ac108",
+      "preprocess": {
+        "class": "SiglipImageProcessor",
+        "size": {
+          "height": 224,
+          "width": 224
+        },
+        "do_resize": true,
+        "resample": 2,
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "image_std": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "do_convert_rgb": false
+      },
+      "id2label": {
+        "0": "ai",
+        "1": "hum"
+      },
+      "ai_index": 0,
+      "ai_label": "ai",
+      "score_direction": "higher_is_ai",
+      "load_seconds": 1.54,
+      "batch_delta_max": 3.785e-06,
+      "determinism_delta_max": 0.0,
+      "batch_independent": true,
+      "deterministic": true,
+      "corrupt_input_failed_explicitly": true,
+      "corrupt_failure_code": "MODEL_ERROR",
+      "fixture_mean_ai": 0.5003,
+      "fixture_mean_real": 0.0002,
+      "fixture_direction_consistent": true,
+      "fixture_scores": {
+        "ai": [
+          0.999971,
+          0.000641,
+          0.001257,
+          0.999245
+        ],
+        "real": [
+          0.00035,
+          7.3e-05,
+          0.000413,
+          3.7e-05
+        ]
+      },
+      "device": "cuda:0",
+      "accepted": true
+    },
+    {
+      "model_key": "convnext_ai",
+      "model_id": "mdl_a033390521785af9a0cea398",
+      "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+      "requested_revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+      "resolved_commit": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+      "architecture": [
+        "ConvNextForImageClassification"
+      ],
+      "num_parameters": 27821666,
+      "checkpoint_hash": "c2813e202b1a7979ae1c1c286d49eb19cbe708340bc436b103163036ed451561",
+      "preprocess_hash": "d88882f29d3d14b8ccaaf91c836e1df0a041009f7e602f710fbb4810acdd80ba",
+      "preprocess": {
+        "class": "ConvNextImageProcessor",
+        "size": {
+          "shortest_edge": 224
+        },
+        "do_resize": true,
+        "resample": 3,
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "image_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "do_convert_rgb": false
+      },
+      "id2label": {
+        "0": "FAKE",
+        "1": "REAL"
+      },
+      "ai_index": 0,
+      "ai_label": "FAKE",
+      "score_direction": "higher_is_ai",
+      "load_seconds": 0.52,
+      "batch_delta_max": 8.941e-06,
+      "determinism_delta_max": 0.0,
+      "batch_independent": true,
+      "deterministic": true,
+      "corrupt_input_failed_explicitly": true,
+      "corrupt_failure_code": "MODEL_ERROR",
+      "fixture_mean_ai": 0.717,
+      "fixture_mean_real": 0.5133,
+      "fixture_direction_consistent": true,
+      "fixture_scores": {
+        "ai": [
+          0.717869,
+          0.786821,
+          0.442387,
+          0.920994
+        ],
+        "real": [
+          0.699825,
+          0.411783,
+          0.354947,
+          0.586706
+        ]
+      },
+      "device": "cuda:0",
+      "accepted": true
+    },
+    {
+      "model_key": "resnet_ai",
+      "model_id": "mdl_5aea9eccc5ab5f0985c6eb84",
+      "repo": "mmanikanta/ResNet_AI_image_detector",
+      "requested_revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+      "resolved_commit": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+      "architecture": [
+        "ResNetForImageClassification"
+      ],
+      "num_parameters": 23512130,
+      "checkpoint_hash": "e6a786890e3d25033ea31de4079411a670b48170240e2145740fd87022bc07ea",
+      "preprocess_hash": "d88882f29d3d14b8ccaaf91c836e1df0a041009f7e602f710fbb4810acdd80ba",
+      "preprocess": {
+        "class": "ConvNextImageProcessor",
+        "size": {
+          "shortest_edge": 224
+        },
+        "do_resize": true,
+        "resample": 3,
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "image_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "do_convert_rgb": false
+      },
+      "id2label": {
+        "0": "FAKE",
+        "1": "REAL"
+      },
+      "ai_index": 0,
+      "ai_label": "FAKE",
+      "score_direction": "higher_is_ai",
+      "load_seconds": 0.54,
+      "batch_delta_max": 0.001812339,
+      "determinism_delta_max": 0.0,
+      "batch_independent": false,
+      "deterministic": true,
+      "corrupt_input_failed_explicitly": true,
+      "corrupt_failure_code": "MODEL_ERROR",
+      "fixture_mean_ai": 0.0203,
+      "fixture_mean_real": 0.0,
+      "fixture_direction_consistent": true,
+      "fixture_scores": {
+        "ai": [
+          0.0,
+          0.0,
+          0.0,
+          0.081358
+        ],
+        "real": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "device": "cuda:0",
+      "accepted": false
+    },
+    {
+      "model_key": "swinv2_deploy",
+      "model_id": "mdl_be319390f1da5c9288088003",
+      "repo": "haywoodsloan/ai-image-detector-deploy",
+      "requested_revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+      "resolved_commit": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+      "architecture": [
+        "Swinv2ForImageClassification"
+      ],
+      "num_parameters": 195206006,
+      "checkpoint_hash": "98cc79f4820baf6df19057f8407a5947d4cf07b79b25ca276e1203e6e072a4ca",
+      "preprocess_hash": "6b12f248b5d8e2a8b6e1d6a40a351bbf42bfb59600b5042186029f655f042c45",
+      "preprocess": {
+        "class": "ViTImageProcessor",
+        "size": {
+          "height": 256,
+          "width": 256
+        },
+        "do_resize": true,
+        "resample": 3,
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "image_std": [
+          0.229,
+          0.224,
+          0.225
+        ],
+        "do_convert_rgb": false
+      },
+      "id2label": {
+        "0": "artificial",
+        "1": "real"
+      },
+      "ai_index": 0,
+      "ai_label": "artificial",
+      "score_direction": "higher_is_ai",
+      "load_seconds": 3.31,
+      "batch_delta_max": 1e-09,
+      "determinism_delta_max": 0.0,
+      "batch_independent": true,
+      "deterministic": true,
+      "corrupt_input_failed_explicitly": true,
+      "corrupt_failure_code": "MODEL_ERROR",
+      "fixture_mean_ai": 0.5007,
+      "fixture_mean_real": 0.4971,
+      "fixture_direction_consistent": true,
+      "fixture_scores": {
+        "ai": [
+          0.007876,
+          0.996964,
+          0.000786,
+          0.997199
+        ],
+        "real": [
+          0.989933,
+          0.998074,
+          0.000114,
+          0.000207
+        ]
+      },
+      "device": "cuda:0",
+      "accepted": true
+    },
+    {
+      "model_key": "vit_ai_real",
+      "model_id": "mdl_36f44b70676c5d4993a462ff",
+      "repo": "Cyberdon360/ai-vs-real-image-detector",
+      "requested_revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+      "resolved_commit": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+      "architecture": [
+        "ViTForImageClassification"
+      ],
+      "num_parameters": 85800194,
+      "checkpoint_hash": "edef4508dd3fa797237da5ad5ff7650b1ab633ae8e8a110107fdae318840d668",
+      "preprocess_hash": "0a7fef4d02c1bd80b0acab428ee7f8d49fcf2381b0b0e1caa45436df036b905b",
+      "preprocess": {
+        "class": "ViTImageProcessor",
+        "size": {
+          "height": 224,
+          "width": 224
+        },
+        "do_resize": true,
+        "resample": 2,
+        "do_rescale": true,
+        "rescale_factor": 0.00392156862745098,
+        "do_normalize": true,
+        "image_mean": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "image_std": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "do_convert_rgb": false
+      },
+      "id2label": {
+        "0": "REAL",
+        "1": "FAKE"
+      },
+      "ai_index": 1,
+      "ai_label": "FAKE",
+      "score_direction": "higher_is_ai",
+      "load_seconds": 1.43,
+      "batch_delta_max": 0.000256047,
+      "determinism_delta_max": 0.0,
+      "batch_independent": false,
+      "deterministic": true,
+      "corrupt_input_failed_explicitly": true,
+      "corrupt_failure_code": "MODEL_ERROR",
+      "fixture_mean_ai": 0.259,
+      "fixture_mean_real": 0.3817,
+      "fixture_direction_consistent": false,
+      "fixture_scores": {
+        "ai": [
+          0.285363,
+          0.21991,
+          0.322044,
+          0.208496
+        ],
+        "real": [
+          0.415045,
+          0.432159,
+          0.371381,
+          0.30813
+        ]
+      },
+      "device": "cuda:0",
+      "accepted": false
+    }
+  ]
+}
